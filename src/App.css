@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* syle for the navigation bar */
+
+  /* links */
+.nav a{
+  color: #ddd;
+  padding-inline: 10px;
+  padding-block: 10px;
+  transition: 0.5s;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: small;
+}
+.nav .active {
+  color: darkgreen;
+  border-radius: 5px;
+
+}
+.nav a:hover{
+  color: darkgreen;
+  border-radius: 5px;
+  opacity: 0.6;
+  color: #ddd;
+}
+
+
+.cont-core{
+  transition: 0.5s ease;
+}
+.cont-core:hover {
+  background-color: #282c34;
+  transition: 0.5s ease;
 }

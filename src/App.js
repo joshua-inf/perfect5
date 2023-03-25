@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import { Nav } from './components/topbottom/Nav';
+import { Home } from './components/pages/Home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './bootstrap.css'
+import About from './components/pages/About';
+import Footer from './components/topbottom/Footer';
+import ScrollToTop from './Scrolltotop';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <BrowserRouter basename='/perfect5'>
+    <ScrollToTop/>
+    <div className='d-flex flex-column justify-content-between'>
+        <Nav/>
+        <div>
+
+        
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/aboutus' element={<About/>}/>
+        </Routes>
+        </div>
+        <Footer/>
     </div>
+    </BrowserRouter>
+        
+    </>
   );
 }
 
