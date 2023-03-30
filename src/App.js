@@ -15,8 +15,6 @@ function App() {
     <div className='d-flex flex-column justify-content-between'>
         <Nav/>
         <div>
-
-        
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/aboutus' element={<About/>}/>
@@ -31,3 +29,4 @@ function App() {
 }
 
 export default App;
+   

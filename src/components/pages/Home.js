@@ -1,14 +1,12 @@
 import image from '../../images/clean5.jpeg'
 import { motion, useAnimation } from 'framer-motion'
-import image1 from '../../images/7740.png'
-import image2 from '../../images/walk.png'
+
 import image3 from '../../images/stuff.png'
 import image4 from '../../images/stuff.jpg'
 import image5 from '../../images/stuff1.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
-import Mini from './HomeComp/MiniServicesSection'
 import { Carousel } from 'react-bootstrap'
 export function Home() {
     useEffect(() => {
@@ -17,6 +15,7 @@ export function Home() {
 
     return (
         <>
+        <div style={{maxWidth:'100%', overflow:'hidden'}}>
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -39,13 +38,13 @@ export function Home() {
                     <div className='text-white text-center'>
                         <div className='d-flex flex-column justify-content-center p-3' style={{ minHeight: '40vh' }}>
                             <div className='row'>
-                                <div className='col-2'></div>
-                                <div className='col-8'>
+                                <div className='col-1'></div>
+                                <div className='col-10'>
                                     <div className='d-flex flex-column justify-content-center' style={{ minHeight: '100vh' }}>
-                                        <div data-aos='fade-left'>
+                                        <div data-aos='fade-left' className='text-uppercase'>
                                             <h3 className='display-6 pb-5'>How perfect 5 Works</h3>
                                             <div className='row' >
-                                                <div className='col-4'>
+                                                <div className='col-md-4 col-12 '>
                                                     <div>
                                                         <div style={{ fontSize: '50px' }}>
                                                             <i class="fa-solid fa-bookmark"></i>
@@ -56,7 +55,7 @@ export function Home() {
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div className='col-4'>
+                                                <div className='col-md-4 col-12'>
                                                     <div>
                                                         <div style={{ fontSize: '50px' }}>
                                                             <i class="fa-solid fa-broom"></i>
@@ -67,7 +66,7 @@ export function Home() {
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div className='col-4'>
+                                                <div className='col-md-4 col-12'>
                                                     <div>
                                                         <div style={{ fontSize: '50px' }}>
                                                             <i style={{ fontSize: '50px' }} class=" fa-solid fa-mug-hot"></i>
@@ -85,14 +84,14 @@ export function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-2'></div>
+                                <div className='col-1'></div>
                             </div>
 
                         </div>
-                        <Mini image1={image1} image2={image2} />
+                        
                     </div>
                 </div>
-                <div className='text-white d-flex flex-column justify-content-center' style={{minHeight:'90vh'}}>
+                {/* <div className='text-white d-flex flex-column justify-content-center' style={{minHeight:'90vh'}}>
                     <div className='p-3 ' >
                         <div className='row'>
                             <div className='col-1'></div>
@@ -155,8 +154,9 @@ export function Home() {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
             </motion.div>
+        </div>
         </>
     )
 }

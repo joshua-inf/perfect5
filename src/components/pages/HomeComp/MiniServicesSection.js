@@ -2,13 +2,12 @@
     return (
         <>
             <div>
-            <div className='p-3 d-flex flex-column justify-content-center'  style={{minHeight:'70vh', marginBlock:'100px'}}>
+            <div className=' d-flex flex-column justify-content-center'  style={{minHeight:'70vh', marginBlock:'100px'}}>
                             <div className='row'>
-                                <div className='col-1'></div>
-                                <div className='col-10'>
+                                <div className='col-12'>
                                     <div data-aos='fade-right'>
                                         <div className='row'>
-                                            <div className='col-12 col-sm-4'>
+                                            <div className='col-12 col-sm-6'>
                                                 <div>
                                                     <div className='fw-light'>
                                                         <h3 className=''>Keep a clean and healthy environment with our enhanced disinfection services</h3>
@@ -28,7 +27,7 @@
                                                 </div>
 
                                             </div>
-                                            <div className='col-12 col-sm-8'>
+                                            <div className='col-12 col-sm-6'>
                                                 <div>
                                                     <div>
                                                         <img alt='image' src={props.image2} width='100%' />
@@ -41,15 +40,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-1'></div>
                             </div>
                         </div>
                         <div className='p-3 d-flex flex-column justify-content-center'  style={{minHeight:'70vh'}}>
                             <div className='row'>
-                                <div className='col-10'>
+                                <div className='col-12'>
                                     <div data-aos='fade-left'>
                                         <div className='row'>
-                                        <div className='col-12 col-sm-8'>
+                                        <div className='col-12 col-sm-6'>
                                                 <div>
                                                     <div>
                                                         <img alt='image' src={props.image1} width='100%' />
@@ -57,7 +55,7 @@
                                                     
                                                 </div>
                                             </div>
-                                            <div className='col-12 col-sm-4'>
+                                            <div className='col-12 col-sm-6'>
                                                 <div>
                                                     <div className='fw-light'>
                                                         <h3 className=''>House cleaning services you can see and feel</h3>
@@ -87,7 +85,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-1'></div>
                             </div>
                         </div>
             </div>

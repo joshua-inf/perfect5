@@ -70,3 +70,55 @@
   background-color: #282c34;
   transition: 0.5s ease;
 }
+
+.custom-nav-links{
+
+}
+
+.open-icon {
+  display: none;
+}
+.close-icon{
+  display: none;
+}
+@media screen and (max-width: 790px){
+  .close-icon{
+    display: block;
+    
+  }
+  .open-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .custom-nav-links {
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  .custom-nav-links ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-nav-links ul li {
+    padding-block: 20px;
+  }
+}
+
+
+/* footer styles */
+.footer a {
+  transition: 0.5s;
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  transition: 0.5s;
+  opacity: 0.6;
+  color: white;
+}

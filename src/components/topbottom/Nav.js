@@ -13,10 +13,19 @@ export function Nav() {
     }
 
     window.addEventListener('scroll', changecolor)
+
+    const openNav = () => {
+        document.getElementById('hidebar').style.display = 'block';
+    }
+    const closeNav = () => {
+        document.getElementById('hidebar').style.display = 'none'
+    }
+
+
     return (
         <>
         <div>
-            <div className='bg-success px-4 d-flex justify-content-between' >
+            <div style={{fontSize:'11px'}} className='bg-success px-2 d-flex justify-content-between' >
                 <div className='text-white'>
                     contact us:  09something
                 </div>
@@ -30,18 +39,26 @@ export function Nav() {
         </div>
             <div  style={{position:'sticky', top:'0', zIndex:'3'}}>
                 <div className='d-flex nav justify-content-between px-4 py-2' style={{position:'absolute', right:'0', left:'0',transition:'0.5s', backgroundColor:`${color ? 'rgba(0,0,0,0.8)':'rgba(0,0,0,0.4)'}` }}>
-                    <div className='d-flex justify-content-center flex-column'>
+                    <div className='d-flex justify-content-center  flex-column'>
                         <img src={image} alt='image' width='70px' />
                     </div>
-                    <div className='d-sm-flex d-none justify-content-around flex-column'>
-                        <ul className='d-flex' style={{listStyle:'none', gap:'5px'}}>
-                            <li><NavLink className='text-decoration-none' to='/'>Home</NavLink></li>
-                            <li><NavLink className='text-decoration-none' to='/aboutUs/'>about us</NavLink></li>
-                            <li><NavLink className=' text-decoration-none' to='/services'>services</NavLink></li>
-                            <li><NavLink className=' text-decoration-none' to='/ourProducts'>our products</NavLink></li>
-                            <li><NavLink className='text-decoration-none' to='/contactUs'>contact us</NavLink></li>
-                            <li><button className='btn btn-success'>get your inquiry now</button></li>
-                        </ul>
+                    <div className='open-icon'>
+                       <i onClick={openNav} class="fa text-white fs-1 fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <div id='hidebar' className=' custom-nav-links'>
+                        <div className='nav-cont'>
+                            <ul className='d-flex' style={{listStyle:'none', gap:'5px'}}>
+                                <div className=' p-3 text-white close-icon'>
+                                    <li onClick={closeNav} style={{position:'absolute', top:'0', right:'0'}}><i class="fs-1 text-white fa fa-window-close" aria-hidden="true"></i></li>
+                                </div>
+                                <li><NavLink className='text-decoration-none' to='/'>Home</NavLink></li>
+                                <li><NavLink className='text-decoration-none' to='/aboutUs/'>about us</NavLink></li>
+                                <li><NavLink className=' text-decoration-none' to='/services'>services</NavLink></li>
+                                <li><NavLink className=' text-decoration-none' to='/ourProducts'>our products</NavLink></li>
+                                <li><NavLink className='text-decoration-none' to='/contactUs'>contact us</NavLink></li>
+                                <li><button className='btn btn-success'>get your inquiry now</button></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
