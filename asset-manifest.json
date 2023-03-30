@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/perfect5/static/css/main.85eb24a4.css",
-    "main.js": "/perfect5/static/js/main.58d18e03.js",
+    "main.css": "/perfect5/static/css/main.b5377ea1.css",
+    "main.js": "/perfect5/static/js/main.774b6990.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
-    "static/media/bg-img.jpg": "/perfect5/static/media/bg-img.430e16c4f1f307429248.jpg",
     "static/media/bgabt.jpg": "/perfect5/static/media/bgabt.f177698b54d2c4a6d6e6.jpg",
     "static/media/stuff.jpg": "/perfect5/static/media/stuff.5614d8f122c0fc399347.jpg",
     "static/media/stuff.png": "/perfect5/static/media/stuff.5baa47510a0464b5b66a.png",
@@ -13,12 +12,13 @@
     "static/media/clean5.jpeg": "/perfect5/static/media/clean5.d418bbbb98bcbbb4d33a.jpeg",
     "static/media/p5logo.png": "/perfect5/static/media/p5logo.27f46d77c619ad389036.png",
     "index.html": "/perfect5/index.html",
-    "main.85eb24a4.css.map": "/perfect5/static/css/main.85eb24a4.css.map",
-    "main.58d18e03.js.map": "/perfect5/static/js/main.58d18e03.js.map",
+    "static/media/facebook1.svg": "/perfect5/static/media/facebook1.d0e6c35f87cabc4c3d016b72ba214d1f.svg",
+    "main.b5377ea1.css.map": "/perfect5/static/css/main.b5377ea1.css.map",
+    "main.774b6990.js.map": "/perfect5/static/js/main.774b6990.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85eb24a4.css",
-    "static/js/main.58d18e03.js"
+    "static/css/main.b5377ea1.css",
+    "static/js/main.774b6990.js"
   ]
 }
