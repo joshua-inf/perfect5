@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/perfect5/static/css/main.b5377ea1.css",
-    "main.js": "/perfect5/static/js/main.774b6990.js",
+    "main.js": "/perfect5/static/js/main.3cf5d594.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
     "static/media/bgabt.jpg": "/perfect5/static/media/bgabt.f177698b54d2c4a6d6e6.jpg",
     "static/media/stuff.jpg": "/perfect5/static/media/stuff.5614d8f122c0fc399347.jpg",
     "static/media/stuff.png": "/perfect5/static/media/stuff.5baa47510a0464b5b66a.png",
-    "static/media/walk.png": "/perfect5/static/media/walk.64aa09b848edc3ef5e03.png",
-    "static/media/7740.png": "/perfect5/static/media/7740.6deddb276546c3437468.png",
+    "static/media/desk.jpg": "/perfect5/static/media/desk.810ea1e59b7d4863c870.jpg",
+    "static/media/lo.png": "/perfect5/static/media/lo.3b8a020b35ab11f5a217.png",
     "static/media/stuff1.jpg": "/perfect5/static/media/stuff1.3b63abc6ac6021f62324.jpg",
+    "static/media/email.png": "/perfect5/static/media/email.bdb653e91ffd51cb9450.png",
     "static/media/clean5.jpeg": "/perfect5/static/media/clean5.d418bbbb98bcbbb4d33a.jpeg",
+    "static/media/phone.png": "/perfect5/static/media/phone.cbf00c1e9fa4f2d23260.png",
     "static/media/p5logo.png": "/perfect5/static/media/p5logo.27f46d77c619ad389036.png",
     "index.html": "/perfect5/index.html",
     "static/media/facebook1.svg": "/perfect5/static/media/facebook1.d0e6c35f87cabc4c3d016b72ba214d1f.svg",
     "main.b5377ea1.css.map": "/perfect5/static/css/main.b5377ea1.css.map",
-    "main.774b6990.js.map": "/perfect5/static/js/main.774b6990.js.map",
+    "main.3cf5d594.js.map": "/perfect5/static/js/main.3cf5d594.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5377ea1.css",
-    "static/js/main.774b6990.js"
+    "static/js/main.3cf5d594.js"
   ]
 }
