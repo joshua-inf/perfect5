@@ -1,12 +1,10 @@
 import { motion } from 'framer-motion'
 import image from '../../images/bgabt.jpg'
-import image2 from '../../images/7740.png'
-import image3 from '../../images/walk.png'
-import Mini from './HomeComp/MiniServicesSection'
+import image2 from '../../images/p5logo.png'
 const About = () => {
     return (
         <>
-            <motion.div  id='/'
+            <motion.div 
             initial={{opacity:0}}
             animate={{opacity:1}}
             transition={{type:'spring',duration: 0.8, delay: 0.5}} 
@@ -18,47 +16,35 @@ const About = () => {
                     </motion.div>
                     </div>
                 </div>
-                <div className='py-5'>
-                    <div className='p-3 text-white'>
-                        <div>
-                            <div className='row'>
-                                <div className='col-1'>
-                                </div>
-                                <div className='col-10'>
-                                    <div className='d-flex flex-column justify-content-center'>
-                                        <div>
-                                            <div className=''>
-                                                <div style={{textAlign:'justify'}}>
-                                                    <div>
-                                                        <p>
-                                                    Perfect five was founded by an individual with vast experience in both cleaning industry and management skill way back in 2006 and in 2014 it was registered w
-                                                    ith the registrar of compa­nies in Zambia, although it started with modest amount of capital but today perfect five cleaning service is growing fast in every as
-                                                    pect in order to meet the demand of the fast growing industry. We are supported by a strong management team comprising of people with relevant technical experie
-                                                    nce. We at perfect five cleaning solution believe that a good health is conducive to the productivity and the quality of our surround­ings; 
-                                                    we strive to provide excellent cleaning services to satisfy the challenging needs of our customers. Our customers are an evidence of our achievements. 
-                                                    </p>
-                                                    </div>
-                                                    <div>
-                                                    <p>
-                                                    Perfect five was founded by an individual with vast experience in both cleaning industry and management skill way back in 2006 and in 2014 it was registered w
-                                                    ith the registrar of compa­nies in Zambia, although it started with modest amount of capital but today perfect five cleaning service is growing fast in every as
-                                                    pect in order to meet the demand of the fast growing industry. We are supported by a strong management team comprising of people with relevant technical experie
-                                                    nce. We at perfect five cleaning solution believe that a good health is conducive to the productivity and the quality of our surround­ings; 
-                                                    we strive to provide excellent cleaning services to satisfy the challenging needs of our customers. Our customers are an evidence of our achievements. 
-                                                    </p></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div style={{maxWidth:'100%', overflow:'hidden'}}>
-                                        <Mini image1={image2} image2={image3} />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='col-1'>
+                <div>
+                    <div className='text-white  mt-4' style={{minHeight:'100vh'}}>
+                        <div>   
+                            <div className='text-center text-uppercase'>
+                                <img src={image2} width='200px'/>
+                                <h2 className='' style={{fontFamily:'cursive'}}>who we are</h2></div>
+                            <div className='d-flex justify-content-center'>
+                                <div className='' style={{textAlign:'justify', width:'90%'}}>
+                                    <p className='my-5'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                    </p>
+                                    <p className='my-5'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                    </p>
+                                    <p className='my-5'>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className='py-5'>
                 </div>
             </motion.div>
         </>

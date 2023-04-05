@@ -55,7 +55,7 @@ export function Nav() {
                                 <li><NavLink className='text-decoration-none' to='/aboutUs/'>about us</NavLink></li>
                                 <li><NavLink className=' text-decoration-none' to='/services'>services</NavLink></li>
                                 <li><NavLink className=' text-decoration-none' to='/ourProducts'>our products</NavLink></li>
-                                <li><NavLink className='text-decoration-none' to='/contactUs'>contact us</NavLink></li>
+                                <li><NavLink className='text-decoration-none' to='/ContactUs'>contact us</NavLink></li>
                                 <li><button className='btn btn-success'>get your inquiry now</button></li>
                             </ul>
                         </div>
