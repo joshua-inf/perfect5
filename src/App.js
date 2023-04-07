@@ -7,6 +7,8 @@ import About from './components/pages/About';
 import Footer from './components/topbottom/Footer';
 import ScrollToTop from './Scrolltotop';
 import ConatctUs from './components/pages/ContactUs';
+import OurProducts from './components/pages/OurProducts';
+import Services from './components/pages/Services';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/aboutus' element={<About/>}/>
           <Route path='/ContactUs' element={<ConatctUs/>}/>
+          <Route path='/OurProducts' element={<OurProducts/>}/>
+          <Route path='/services' element={<Services/>}/>
         </Routes>
         </div>
         <Footer/>

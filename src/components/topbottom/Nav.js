@@ -1,4 +1,4 @@
-import image from '../../images/p5logo.png';
+import image from '../../images/Perfect5-side.png';
 import {NavLink} from  'react-router-dom';
 import { InView, useInView } from 'react-intersection-observer';
 import { useState } from 'react';
@@ -40,7 +40,7 @@ export function Nav() {
             <div  style={{position:'sticky', top:'0', zIndex:'3'}}>
                 <div className='d-flex nav justify-content-between px-4 py-2' style={{position:'absolute', right:'0', left:'0',transition:'0.5s', backgroundColor:`${color ? 'rgba(0,0,0,0.8)':'rgba(0,0,0,0.4)'}` }}>
                     <div className='d-flex justify-content-center  flex-column'>
-                        <img src={image} alt='image' width='70px' />
+                        <img src={image} alt='image' width='90px' />
                     </div>
                     <div className='open-icon'>
                        <i onClick={openNav} class="fa text-white fs-1 fa-bars" aria-hidden="true"></i>
