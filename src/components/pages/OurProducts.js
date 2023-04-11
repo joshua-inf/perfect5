@@ -1,4 +1,5 @@
-import image from '../../images/flowers.jpg'
+import image from '../../images/product.png'
+import image2 from '../../images/basket.png'
 import { motion } from 'framer-motion'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -54,26 +55,62 @@ const OurProducts = () => {
                 animate={{ opacity: 1 }}
                 transition={{ type: 'spring', duration: 0.8, delay: 0.5 }}
             >
-                <Swiper className=''
+                <Swiper style={{background:'linear-gradient( rgb(0,0,0), rgb(33, 37, 41))' }} className=''
                     spaceBetween={50}
                     slidesPerView={1}
                 >
                     <SwiperSlide>
                         <div>
-                            <div className="bg-secondary" style={{height:'100vh'}}>
-                                <div className='d-flex h-100 flex-column justify-content-center'>
-                                    <div className='d-flex justify-content-start'>
-                                        <div className=' text-white text-uppercase p-2'>
-                                            <h2>welcome to our store</h2>
+                            <div className="px-2" style={{ height: '100vh'}}>
+                                <div className='row h-100'>
+                                    <div className='col-12 col-md-5  d-flex flex-column justify-content-center'>
+                                        <div className=''>
+                                            <div className='text-white p-2'>
+                                                <div className=' text-uppercase ' style={{ fontSize: '60px' }}>welcome to our store</div>
+                                                <div style={{ fontSize: '30px' }}>
+                                                    Lorem ipsum dolor sit amet
+                                                </div>
+                                                <div>
+                                                    <button className='btn m-2 p-4 text-uppercase fw-bolder btn-success'>contact us now</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='col-7 d-md-block d-none'>
+                                        <div>
+                                            <img src={image} width='100%' alt='productimage' />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
+                    <SwiperSlide className='d-none d-md-block'> 
+                        <div>
+                            <div className="px-2" style={{ height: '100vh' }}>
+                                <div className='row h-100'>
+                                    <div className='col-5 d-flex flex-column justify-content-center'>
+                                        <div className=''>
+                                            <div className='text-white p-2'>
+                                                <div className=' text-uppercase ' style={{ fontSize: '60px' }}>welcome to our store</div>
+                                                <div style={{ fontSize: '30px' }}>
+                                                    Lorem ipsum dolor sit amet
+                                                </div>
+                                                <div>
+                                                    <button className='btn m-2 p-4 text-uppercase fw-bolder btn-success'>contact us now</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='col-7'>
+                                        <div>
+                                            <img src={image2} width='100%' alt='productimage' />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
                 </Swiper>
                 <div className='p-3'>
                     <div className='text-white d-flex flex-column justify-content-center' style={{ minHeight: '75vh' }}>
