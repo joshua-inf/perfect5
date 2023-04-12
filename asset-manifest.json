@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/perfect5/static/css/main.f1167f33.css",
-    "main.js": "/perfect5/static/js/main.81e7cee3.js",
+    "main.js": "/perfect5/static/js/main.e380f439.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
-    "static/media/flowers.jpg": "/perfect5/static/media/flowers.ca02923878b447603e8d.jpg",
     "static/media/bgabt.jpg": "/perfect5/static/media/bgabt.f177698b54d2c4a6d6e6.jpg",
+    "static/media/product.png": "/perfect5/static/media/product.0affab6716c5f6399b81.png",
+    "static/media/basket.png": "/perfect5/static/media/basket.3169bc02a11010009fd0.png",
     "static/media/stuff.jpg": "/perfect5/static/media/stuff.5614d8f122c0fc399347.jpg",
     "static/media/stuff.png": "/perfect5/static/media/stuff.5baa47510a0464b5b66a.png",
     "static/media/desk.jpg": "/perfect5/static/media/desk.810ea1e59b7d4863c870.jpg",
+    "static/media/services.jpg": "/perfect5/static/media/services.08e6f3324957a4de9b70.jpg",
     "static/media/lo.png": "/perfect5/static/media/lo.3b8a020b35ab11f5a217.png",
     "static/media/stuff1.jpg": "/perfect5/static/media/stuff1.3b63abc6ac6021f62324.jpg",
     "static/media/email.png": "/perfect5/static/media/email.bdb653e91ffd51cb9450.png",
@@ -18,11 +20,11 @@
     "index.html": "/perfect5/index.html",
     "static/media/facebook1.svg": "/perfect5/static/media/facebook1.d0e6c35f87cabc4c3d016b72ba214d1f.svg",
     "main.f1167f33.css.map": "/perfect5/static/css/main.f1167f33.css.map",
-    "main.81e7cee3.js.map": "/perfect5/static/js/main.81e7cee3.js.map",
+    "main.e380f439.js.map": "/perfect5/static/js/main.e380f439.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1167f33.css",
-    "static/js/main.81e7cee3.js"
+    "static/js/main.e380f439.js"
   ]
 }
