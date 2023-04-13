@@ -21,67 +21,70 @@ export function Home() {
                 animate={{ opacity: 1 }}
                 transition={{ type: 'spring', duration: 0.8, delay: 0.5 }}
                 className=''>
-                <div className="App" style={{ background: `url(${image}) no-repeat center`, backgroundSize: 'cover', height: '100vh' }}>
-                    <div className='d-flex flex-column justify-content-center' style={{paddingTop:'100px', backdropFilter: 'blur(2px)', backgroundColor: 'rgba(0,0,0,0.6)', minHeight: '100%' }}>
-                        <div className='text-white mx-4 d-flex justify-content-center flex-column'>
+                <div className="App" style={{ background: `url(${image}) no-repeat fixed center`, backgroundSize: 'cover', minHeight: '100vh' }}>
+                    <div className='d-flex flex-column justify-content-center' style={{paddingTop:'100px', backdropFilter: 'blur(2px)', backgroundColor: 'rgba(0,0,0,0.6)', minHeight: '100vh' }}>
+                        <div className='text-white d-flex justify-content-center flex-column'>
                             <motion.div initial={{ y: '15vh', opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { type: 'spring', duration: 4 } }}>
-                                <div>
+                                <div className='d-flex flex-column justify-content-center' style={{height:'50vh'}}>
                                     <h3 className='display-2 fw-bold text-uppercase'> perfect <span className='text-success'>5</span></h3>
                                     <p className='fw-light h2'>
                                         cleaning solutions
                                     </p>
                                 </div>
                                 <div>
-                                    <div className='text-white text-center'>
-                                        <div className='d-flex flex-column justify-content-center p-3'>
-                                            <div className='row'>
-                                                <div className='col-1'></div>
-                                                <div className='col-10'>
-                                                    <div className='d-flex flex-column justify-content-center' >
-                                                        <div className='text-uppercase'>
-                                                            <h3 className='display-6 pb-5'>How perfect 5 Works</h3>
-                                                            <div className='row' >
-                                                                <div className='col-md-4 col-12 '>
-                                                                    <div>
-                                                                        <div style={{ fontSize: '50px' }}>
-                                                                            <i class="fa-solid fa-bookmark"></i>
+                                    <div style={{minHeight:'100vh'}} className='d-flex flex-column justify-content-center text-white text-center'>
+                                        <div className='p-3'>
+                                            <div>
+                                                <div className='row'>
+                                                    <div className='col-1'></div>
+                                                    <div className='col-10'>
+                                                        <div className='d-flex flex-column justify-content-center' >
+                                                            <div className='text-uppercase'>
+                                                                <h3 className='display-6'>How perfect 5 Works</h3>
+                                                                <hr className='text-white  mb-4' />
+                                                                <div className='row' >
+                                                                    <div className='col-md-4 col-12 '>
+                                                                        <div>
+                                                                            <div style={{ fontSize: '50px' }}>
+                                                                                <i class="fa-solid fa-bookmark"></i>
+                                                                            </div>
+                                                                            <h3>book</h3>
+                                                                            <p>
+                                                                                Select the date and time you’d like your professional to show up.
+                                                                            </p>
                                                                         </div>
-                                                                        <h3>book</h3>
-                                                                        <p>
-                                                                            Select the date and time you’d like your professional to show up.
-                                                                        </p>
                                                                     </div>
-                                                                </div>
-                                                                <div className='col-md-4 col-12'>
-                                                                    <div>
-                                                                        <div style={{ fontSize: '50px' }}>
-                                                                            <i class="fa-solid fa-broom"></i>
+                                                                    <div className='col-md-4 col-12'>
+                                                                        <div>
+                                                                            <div style={{ fontSize: '50px' }}>
+                                                                                <i class="fa-solid fa-broom"></i>
+                                                                            </div>
+                                                                            <h3>clean</h3>
+                                                                            <p>
+                                                                                A certified cleaner comes over and cleans your place.
+                                                                            </p>
                                                                         </div>
-                                                                        <h3>clean</h3>
-                                                                        <p>
-                                                                            A certified cleaner comes over and cleans your place.
-                                                                        </p>
                                                                     </div>
-                                                                </div>
-                                                                <div className='col-md-4 col-12'>
-                                                                    <div>
-                                                                        <div style={{ fontSize: '50px' }}>
-                                                                            <i style={{ fontSize: '50px' }} class=" fa-solid fa-mug-hot"></i>
+                                                                    <div className='col-md-4 col-12'>
+                                                                        <div>
+                                                                            <div style={{ fontSize: '50px' }}>
+                                                                                <i style={{ fontSize: '50px' }} class=" fa-solid fa-mug-hot"></i>
+                                                                            </div>
+                                                                            <h3>Relax</h3>
+                                                                            <p>
+                                                                                Sit back and relax. Enjoy your sparkling home in no time.
+                                                                            </p>
                                                                         </div>
-                                                                        <h3>Relax</h3>
-                                                                        <p>
-                                                                            Sit back and relax. Enjoy your sparkling home in no time.
-                                                                        </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div className='py-5'>
-                                                            <button className='btn btn-outline-light btn-lg text-uppercase'>book us now and get and an enguiry</button>
+                                                            <div className='py-5'>
+                                                                <button className='btn btn-outline-light btn-lg text-uppercase'>book us now and get and an enguiry</button>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <div className='col-1'></div>
                                                 </div>
-                                                <div className='col-1'></div>
                                             </div>
 
                                         </div>

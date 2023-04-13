@@ -1,5 +1,7 @@
-import image from '../../images/services.jpg'
-import { motion } from 'framer-motion'
+import image from '../../images/services.jpg';
+import image1 from '../../images/clean8.jpg';
+import image2 from '../../images/perfectsomething.jpg'
+import { motion } from 'framer-motion';
 
 const Services = () => {
     return (
@@ -22,8 +24,10 @@ const Services = () => {
                             <div>
                                 <div    className='row'>
                                     <div className='col-12 col-md-6'>
-                                        <div className='h-100 bg-light'>
-                                            <div style={{height:'400px'}}></div>
+                                        <div className=''>
+                                            <div >
+                                                <img width='100%' src={image1} />
+                                            </div>
                                         </div>
                                     </div>
                                     <div className='col-12 py-2 col-md-6'>
@@ -57,6 +61,15 @@ We provide services to many different commercial locations. Contact us today and
                             </div>
                         </div>
                     </div>
+                    <div>
+                        <div>  
+                            <div className=''>
+                                <div>
+                                    <img src={image2} width='100%' alt='imagecover' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className='d-flex flex-column justify-content-center py-5' style={{minHeight:'100vh'}}>
                         <div>
                             <div>
@@ -65,8 +78,11 @@ We provide services to many different commercial locations. Contact us today and
                             <hr className='text-white m-0'/>
                             <div className='row'>
                                 <div className='col-md-4 p-2 col-12'>
-                                    <div className='bg-secondary' style={{height:'400px'}}>
-                                        <div className='d-flex justify-content-center h-100'>
+                                    <div className='bg-secondary' style={{height:'400px',position:'relative', overflow:'hidden'}}>
+                                        <div style={{position:'absolute', top:'0', bottom:'0'}}>
+                                            <img width='100%' style={{transform:'scale(1.5)'}} src={image1} />
+                                        </div>
+                                        <div style={{position:'absolute', top:'0', bottom:'0', right:'0', left:'0',backgroundColor:'rgba(0,0,0,0.5)', backdropFilter:'blur(3px)'}} className='d-flex justify-content-center h-100'>
                                             <div className='d-flex flex-column  justify-content-center'>
                                                 <div className='text-center text-white text-uppercase h3'>
                                                     name of category
@@ -77,8 +93,11 @@ We provide services to many different commercial locations. Contact us today and
                                     </div>
                                 </div>
                                 <div className='col-md-4 p-2 col-12'>
-                                    <div className='bg-secondary' style={{height:'400px'}}>
-                                    <div className='d-flex justify-content-center h-100'>
+                                    <div className='bg-secondary' style={{height:'400px',position:'relative', overflow:'hidden'}}>
+                                        <div style={{position:'absolute', top:'0', bottom:'0'}}>
+                                            <img width='100%' style={{transform:'scale(1.5)'}} src={image1} />
+                                        </div>
+                                        <div style={{position:'absolute', top:'0', bottom:'0', right:'0', left:'0',backgroundColor:'rgba(0,0,0,0.5)', backdropFilter:'blur(3px)'}} className='d-flex justify-content-center h-100'>
                                             <div className='d-flex flex-column  justify-content-center'>
                                                 <div className='text-center text-white text-uppercase h3'>
                                                     name of category
@@ -89,8 +108,11 @@ We provide services to many different commercial locations. Contact us today and
                                     </div>
                                 </div>
                                 <div className='col-md-4 p-2 col-12'>
-                                    <div className='bg-secondary' style={{height:'400px'}}>
-                                    <div className='d-flex justify-content-center h-100'>
+                                    <div className='bg-secondary' style={{height:'400px',position:'relative', overflow:'hidden'}}>
+                                        <div style={{position:'absolute', top:'0', bottom:'0'}}>
+                                            <img width='100%' style={{transform:'scale(1.5)'}} src={image1} />
+                                        </div>
+                                        <div style={{position:'absolute', top:'0', bottom:'0', right:'0', left:'0',backgroundColor:'rgba(0,0,0,0.5)', backdropFilter:'blur(3px)'}} className='d-flex justify-content-center h-100'>
                                             <div className='d-flex flex-column  justify-content-center'>
                                                 <div className='text-center text-white text-uppercase h3'>
                                                     name of category
@@ -100,6 +122,7 @@ We provide services to many different commercial locations. Contact us today and
                                         </div>
                                     </div>
                                 </div>
+                              
                             </div>
                         </div>
                     </div>

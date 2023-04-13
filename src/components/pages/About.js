@@ -44,6 +44,59 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <div>
+                        <div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className=''>
+                        <h4 className='text-white text-uppercase text-center'>some of our top clients (companies)</h4>
+                        <hr className='m-0 mx-5 text-white' />
+                        <div className='px-5'>
+                            <div className='row'>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                                <div className='col-lg-1 col-3 p-3'>
+                                    <div className='bg-secondary' style={{height:'100px'}}></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className='py-5'>
                 </div>
             </motion.div>
