@@ -45,9 +45,6 @@ export function Nav() {
                     <div className='open-icon'>
                        <i onClick={openNav} class="fa text-white fs-1 fa-bars" aria-hidden="true"></i>
                     </div>
-                    <div className='d-flex flex-column justify-content-center'>
-
-                    </div>
                     <div id='hidebar' className='custom-nav-links'>
                         <div className=''>
                             <ul className='d-flex' style={{listStyle:'none', gap:'15px'}}>

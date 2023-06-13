@@ -122,3 +122,14 @@
   opacity: 0.6;
   color: white;
 }
+
+
+/*images*/
+.col-cat:hover .img-1 {
+  transform: scale(160%);
+  transition: ease 0.6s;
+}
+.img-1 {
+  transform: scale(150%);
+  transition: ease 0.6s;
+}

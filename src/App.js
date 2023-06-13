@@ -15,7 +15,7 @@ function App() {
     <>
     <BrowserRouter basename='/perfect5'>
     <ScrollToTop/>
-    <div className='d-flex bg-dark flex-column justify-content-between'>
+    <div className='d-flex flex-column justify-content-between'>
         <Nav/>
         <div>
         <Routes>
