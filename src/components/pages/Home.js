@@ -25,7 +25,7 @@ export function Home() {
                     <div className='d-flex flex-column justify-content-center' style={{paddingTop:'100px', backdropFilter: 'blur(2px)', backgroundColor: 'rgba(0,0,0,0.6)', minHeight: '100vh' }}>
                         <div className='text-white d-flex justify-content-center flex-column'>
                             <motion.div initial={{ y: '15vh', opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { type: 'spring', duration: 4 } }}>
-                                <div className='d-flex flex-column justify-content-center' style={{height:'50vh'}}>
+                                <div className='d-flex flex-column justify-content-center' style={{height:'200px'}}>
                                     <h3 className='display-2 fw-bold text-uppercase'> perfect <span className='text-success'>5</span></h3>
                                     <p className='fw-light h2'>
                                         cleaning solutions

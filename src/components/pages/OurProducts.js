@@ -1,12 +1,18 @@
-import image from '../../images/product.png'
+import image from '../../images/image20.jpg'
 import image2 from '../../images/basket.png'
+import image3 from '../../images/clean2.jpeg'
+import image4 from '../../images/clean0.jpg'
 import { motion } from 'framer-motion'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper';
 
-
+import 'swiper/css/navigation';
+import 'swiper/css/pagination'
 import 'swiper/css';
 
+
 const OurProducts = () => {
+
     const ContainerProduct1 = () => {
         const ContainerProduct2 = () => {
             return (
@@ -55,18 +61,21 @@ const OurProducts = () => {
                 animate={{ opacity: 1 }}
                 transition={{ type: 'spring', duration: 0.8, delay: 0.5 }}
             >
-                <Swiper style={{background:'linear-gradient( rgb(0,0,0), rgb(33, 37, 41))' }} className=''
+                <Swiper style={{ background: 'linear-gradient( rgb(0,0,0), rgb(33, 37, 41))' }} className=''
                     spaceBetween={50}
                     slidesPerView={1}
+                    pagination={{ clickable: true }}
+                    navigation
+                    modules={[Navigation, Pagination]}
                 >
                     <SwiperSlide>
                         <div>
-                            <div className="px-2" style={{ height: '100vh'}}>
-                                <div className='row h-100'>
+                            <div className="" style={{ background: `url(${image3}) fixed right`, backgroundSize: 'cover', height: '70vh' }}>
+                                <div className='row p-5 h-100' >
                                     <div className='col-12 col-md-5  d-flex flex-column justify-content-center'>
                                         <div className=''>
-                                            <div className='text-white p-2'>
-                                                <div className=' text-uppercase ' style={{ fontSize: '60px' }}>welcome to our store</div>
+                                            <div className='text-white p-2' style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>
+                                                <div className='text-uppercase ' style={{ fontSize: '60px' }}>welcome to our store</div>
                                                 <div style={{ fontSize: '30px' }}>
                                                     Lorem ipsum dolor sit amet
                                                 </div>
@@ -77,22 +86,19 @@ const OurProducts = () => {
                                         </div>
                                     </div>
                                     <div className='col-7 d-md-block d-none'>
-                                        <div>
-                                            <img src={image} width='100%' alt='productimage' />
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='d-none d-md-block'> 
+                    <SwiperSlide>
                         <div>
-                            <div className="px-2" style={{ height: '100vh' }}>
-                                <div className='row h-100'>
-                                    <div className='col-5 d-flex flex-column justify-content-center'>
+                            <div className="" style={{ background: `url(${image4}) fixed right`, backgroundSize: 'cover', height: '70vh' }}>
+                                <div className='row p-5 h-100' >
+                                    <div className='col-12 col-md-5  d-flex flex-column justify-content-center'>
                                         <div className=''>
-                                            <div className='text-white p-2'>
-                                                <div className=' text-uppercase ' style={{ fontSize: '60px' }}>welcome to our store</div>
+                                            <div className='text-white p-2' style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>
+                                                <div className='text-uppercase ' style={{ fontSize: '60px' }}>welcome to our store</div>
                                                 <div style={{ fontSize: '30px' }}>
                                                     Lorem ipsum dolor sit amet
                                                 </div>
@@ -102,24 +108,66 @@ const OurProducts = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-7'>
-                                        <div>
-                                            <img src={image2} width='100%' alt='productimage' />
-                                        </div>
+                                    <div className='col-7 d-md-block d-none'>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>
+                
                 <div className='p-3'>
                     <div className='text-white d-flex flex-column justify-content-center' style={{ minHeight: '75vh' }}>
                         <div className='text-uppercase p-4'>
                             <h2>products</h2>
                             <hr />
                         </div>
-                        <ContainerProduct1 />
+                        <Swiper style={{ width: '100%' }}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            navigation
+                            modules={[Navigation]}
+                            transition={{ type: 'spring', duration: 0.8, delay: 0.5 }}
+                        >
+                            <SwiperSlide>
+                                <div >
+                                    <ContainerProduct1 />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div >
+                                    <ContainerProduct1 />
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
+                    <div className='bg-light my-4'>
+                    <div>
+                        <div className='row h-100'>
+                            <div className='col-12 col-md-4 bg-info'>
+                                <div className='text-dark d-flex justify-content-center flex-column p-5'>
+                                    <div className='fw-bold h1'>
+                                        Gear up in Gorpcore!
+                                    </div>
+                                    <div className=''>
+
+                                        Shop the look from Salomon, The North Face, and more!
+                                    </div>
+                                    <div className='mt-5'>
+                                        <button className='btn btn-outline-dark btn-lg p-2 rounded-0'>Check this out</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-12 col-md-8 m-0 p-0'>
+                                <div style={{ height: '50vh', overflow: 'hidden' }}>
+                                    <img style={{ maxWidth: '100%', minHeight: '100%' }} src={image} />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
                     <div className='text-white d-flex flex-column justify-content-center my-2' style={{ minHeight: '75vh' }}>
                         <div>
                             <div className='row'>
@@ -151,79 +199,9 @@ const OurProducts = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div className='text-white'>
-                            <h2 className='text-uppercase'>category</h2>
-                            <hr />
-                            <div className='row p-3'>
-                                <div style={{ height: '400px' }} className='col-md-6 col-12 bg-secondary'>
-                                    <div className='d-flex flex-column h-100 justify-content-center'>
-                                        <div className='d-flex p-5 justify-content-center'>
-                                            <div>
-                                                <h3 className='text-uppercase'>category name</h3>
-                                                <div className=''>
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time
-                                                </div>
-                                                <button className='btn btn-success shadow px-4 py-2'>call to action</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style={{ height: '400px' }} className='bg-dark col-md-6 col-12'>
-                                    <div className='d-flex flex-column h-100 justify-content-center'>
-                                        <div className='d-flex p-5 justify-content-center'>
-                                            <div>
-                                                <h3 className='text-uppercase'>category name</h3>
-                                                <div className=''>
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time
-                                                </div>
-                                                <button className='btn btn-success shadow px-4 py-2'>call to action</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style={{ height: '400px' }} className='bg-dark col-md-6 col-12'>
-                                    <div className='d-flex flex-column h-100 justify-content-center'>
-                                        <div className='d-flex p-5 justify-content-center'>
-                                            <div>
-                                                <h3 className='text-uppercase'>category name</h3>
-                                                <div className=''>
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time
-                                                </div>
-                                                <button className='btn btn-success shadow px-4 py-2'>call to action</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style={{ height: '400px' }} className='col-md-6 col-12 bg-secondary'>
-                                    <div className='d-flex flex-column h-100 justify-content-center'>
-                                        <div className='d-flex p-5 justify-content-center'>
-                                            <div>
-                                                <h3 className='text-uppercase'>category name</h3>
-                                                <div className=''>
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time   product description in detail this time
-                                                    product description in detail this time
-                                                </div>
-                                                <button className='btn btn-success shadow px-4 py-2'>call to action</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
+                
             </motion.div>
         </>
     )

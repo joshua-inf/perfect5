@@ -42,9 +42,7 @@
 
   /* links */
 .nav a{
-  color: #ddd;
-  padding-inline: 10px;
-  padding-block: 10px;
+  color: white;
   transition: 0.5s;
   font-weight: bold;
   text-transform: uppercase;
@@ -72,7 +70,9 @@
 }
 
 .custom-nav-links{
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .open-icon {
