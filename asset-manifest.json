@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/perfect5/static/css/main.0e5f7df2.css",
-    "main.js": "/perfect5/static/js/main.7ae5abca.js",
+    "main.css": "/perfect5/static/css/main.d9628bda.css",
+    "main.js": "/perfect5/static/js/main.6166d347.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
     "static/media/perfectsomething.jpg": "/perfect5/static/media/perfectsomething.d61d0275c94fa634deee.jpg",
+    "static/media/image21.jpg": "/perfect5/static/media/image21.9f7289a6733d81fe364f.jpg",
     "static/media/bgabt.jpg": "/perfect5/static/media/bgabt.b1d198c3949253a1b033.jpg",
     "static/media/basket.png": "/perfect5/static/media/basket.3169bc02a11010009fd0.png",
     "static/media/image20.jpg": "/perfect5/static/media/image20.76b08d0b1da668f36ee9.jpg",
@@ -14,21 +15,23 @@
     "static/media/desk.jpg": "/perfect5/static/media/desk.810ea1e59b7d4863c870.jpg",
     "static/media/services.jpg": "/perfect5/static/media/services.08e6f3324957a4de9b70.jpg",
     "static/media/lo.png": "/perfect5/static/media/lo.3b8a020b35ab11f5a217.png",
+    "static/media/image22.jpg": "/perfect5/static/media/image22.38cb312d27bfe41d980f.jpg",
     "static/media/clean2.jpeg": "/perfect5/static/media/clean2.0e814d9b2a4a0651585f.jpeg",
     "static/media/stuff1.jpg": "/perfect5/static/media/stuff1.3b63abc6ac6021f62324.jpg",
     "static/media/email.png": "/perfect5/static/media/email.bdb653e91ffd51cb9450.png",
     "static/media/clean5.jpeg": "/perfect5/static/media/clean5.d418bbbb98bcbbb4d33a.jpeg",
     "static/media/phone.png": "/perfect5/static/media/phone.cbf00c1e9fa4f2d23260.png",
     "static/media/Perfect5-side.png": "/perfect5/static/media/Perfect5-side.45534248bc5da25575cc.png",
+    "static/media/111.webp": "/perfect5/static/media/111.ea6ae317e6dab094a647.webp",
     "static/media/p5logo.png": "/perfect5/static/media/p5logo.27f46d77c619ad389036.png",
     "index.html": "/perfect5/index.html",
     "static/media/facebook1.svg": "/perfect5/static/media/facebook1.d0e6c35f87cabc4c3d016b72ba214d1f.svg",
-    "main.0e5f7df2.css.map": "/perfect5/static/css/main.0e5f7df2.css.map",
-    "main.7ae5abca.js.map": "/perfect5/static/js/main.7ae5abca.js.map",
+    "main.d9628bda.css.map": "/perfect5/static/css/main.d9628bda.css.map",
+    "main.6166d347.js.map": "/perfect5/static/js/main.6166d347.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e5f7df2.css",
-    "static/js/main.7ae5abca.js"
+    "static/css/main.d9628bda.css",
+    "static/js/main.6166d347.js"
   ]
 }
