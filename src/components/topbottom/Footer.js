@@ -86,6 +86,10 @@ const Footer = () => {
                         
                     </div>
                 </div>
+                <div className='d-flex text-secondary p-2 justify-content-evenly' >
+                    <div> &copy;2023 | Perfect 5 </div>
+                    <div>Terms of use | Privacy Policy</div>
+                </div>
             </div>
         </>
     )

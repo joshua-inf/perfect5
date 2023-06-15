@@ -133,3 +133,8 @@
   transform: scale(150%);
   transition: ease 0.6s;
 }
+
+/*scroll bar*/
+.scroller::-webkit-scrollbar{
+  display: none;
+}

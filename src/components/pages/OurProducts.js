@@ -1,16 +1,13 @@
 import image from '../../images/image20.jpg'
-import image5 from '../../images/image22.jpg'
 import image6 from '../../images/image21.jpg'
 import image7 from '../../images/111.webp'
-import image8 from '../../images/image20.jpg'
-import image9 from '../../images/image20.jpg'
-import image10 from '../../images/image20.jpg'
 
 import image2 from '../../images/basket.png'
 import image3 from '../../images/clean2.jpeg'
 import image4 from '../../images/clean0.jpg'
 import { motion } from 'framer-motion'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { AiOutlineArrowRight, AiOutlineArrowLeft } from 'react-icons/ai'
 import { Navigation, Pagination } from 'swiper';
 
 import 'swiper/css/navigation';
@@ -19,6 +16,18 @@ import 'swiper/css';
 import { Link } from 'react-router-dom'
 
 
+const goRight = () => {
+    const scroller = document.getElementById('scroller')
+    scroller.style.scrollBehavior = 'smooth';
+    scroller.scrollLeft = scroller.scrollLeft -= 300;
+}
+const goLeft = () => {
+   
+    const scroller = document.getElementById('scroller')
+    scroller.style.scrollBehavior = 'smooth';
+    scroller.scrollLeft = scroller.scrollLeft += 300;
+}
+
 const OurProducts = () => {
 
     const ContainerProduct1 = () => {
@@ -26,14 +35,14 @@ const OurProducts = () => {
         const ContainerProduct2 = (props) => {
             return (
                 <>
-                    <Link className='m-2 shadow rounded bg-secondary' style={{ minWidth: '300px' }}>
+                    <Link to='/OurProductsDet' className='m-2 shadow rounded bg-secondary' style={{ minWidth: '300px' }}>
                         <div className=' my-2'>
                             <div className=''>
-                                <img src={props.images} width='100%' />
+                                <img alt='img' src={props.images} width='100%' />
                             </div>
                             <div className='p-2'>
                                 <div>
-                                    <div className='text-uppercase text-white' style={{ fontSize: '20px', textDecoration:'none' }}>product name</div>
+                                    <div className='text-uppercase text-white' style={{ fontSize: '20px', textDecoration: 'none' }}>product name</div>
                                 </div>
                                 <div>
                                 </div>
@@ -45,14 +54,25 @@ const OurProducts = () => {
         }
         return (
             <>
-                <div className=' d-flex py-2' style={{ overflowX: "scroll", overflow: 'auto' }}>
-                    <ContainerProduct2 images={image2} />
-                    <ContainerProduct2 images={image2} />
-                    <ContainerProduct2 images={image2} />
-                    <ContainerProduct2 images={image2} />
-                    <ContainerProduct2 images={image2} />
-                    <ContainerProduct2 images={image2} />
-                    <ContainerProduct2 images={image2} />
+                <div style={{ position: 'relative' }}>
+                    <div id='scroller' className='scroller d-flex py-2' style={{ overflowX: "scroll" }}>
+                        <ContainerProduct2 images={image2} />
+                        <ContainerProduct2 images={image2} />
+                        <ContainerProduct2 images={image2} />
+                        <ContainerProduct2 images={image2} />
+                        <ContainerProduct2 images={image2} />
+                        <ContainerProduct2 images={image2} />
+                        <ContainerProduct2 images={image2} />
+                    </div>
+                    <div style={{ position: 'absolute',cursor:'pointer', right: '0', top: '0', bottom: '0', backgroundColor: 'rgba(0,0,0,0.5)' }} className='text-white p-3 fs-2 d-none d-md-block' onClick={goLeft}>
+                        <div className='d-flex flex-column h-100 justify-content-center '>
+                            <AiOutlineArrowRight />
+                        </div>
+                    </div>
+                    <div style={{ position: 'absolute',cursor:'pointer', left: '0', top: '0', bottom: '0', backgroundColor: 'rgba(0,0,0,0.5)' }} className='text-white fs-2 p-3 d-none d-md-block' onClick={goRight}>
+                        <div className='d-flex flex-column h-100 justify-content-center '>
+                            <AiOutlineArrowLeft /></div>
+                    </div>
                 </div>
             </>
         )
@@ -130,7 +150,7 @@ const OurProducts = () => {
                     <div className='bg-secondary my-4'>
                         <div className=''>
                             <div className='row h-100'>
-                                <div className='col-12 col-md-4 bg-info'>
+                                <div className='col-12 col-md-4 ' style={{ backgroundColor: 'rgb(215,215,215)' }}>
                                     <div className='text-dark d-flex justify-content-center flex-column p-5'>
                                         <div className='fw-bold h1'>
                                             Gear up in Gorpcore!
@@ -146,7 +166,7 @@ const OurProducts = () => {
                                 </div>
                                 <div className='col-12 col-md-8 m-0 p-0'>
                                     <div style={{ height: '50vh', overflow: 'hidden' }}>
-                                        <img style={{ maxWidth: '100%', minHeight: '100%' }} src={image} />
+                                        <img alt='img' style={{ maxWidth: '100%', minHeight: '100%' }} src={image} />
                                     </div>
                                 </div>
 
@@ -160,35 +180,35 @@ const OurProducts = () => {
                             </div>
                             <hr className='m-4 my-0' />
                             <div>
-                                
+
                                 <div className='row p-4'>
                                     <div className='col-6 col-md-3 p-2'>
-                                        <div className='col-cat bg-light' style={{ overflow:'hidden'}}>
-                                            <img width='100%' className='img-1' src={image7} /> 
+                                        <div className='col-cat bg-light' style={{ overflow: 'hidden' }}>
+                                            <img alt='img' width='100%' className='img-1' src={image7} />
                                         </div>
                                         <div className='text-uppercase fw-bold'>
                                             Body wash
                                         </div>
                                     </div>
                                     <div className='col-6 col-md-3 p-2'>
-                                        <div className='col-cat bg-light' style={{ overflow:'hidden'}}>
-                                            <img width='100%' className='img-1' src={image7} /> 
+                                        <div className='col-cat bg-light' style={{ overflow: 'hidden' }}>
+                                            <img alt='img' width='100%' className='img-1' src={image7} />
                                         </div>
                                         <div className='text-uppercase fw-bold'>
                                             dish wash
                                         </div>
                                     </div>
                                     <div className='col-6 col-md-3 p-2'>
-                                        <div className='col-cat bg-light' style={{ overflow:'hidden'}}>
-                                            <img width='100%' className='img-1' src={image7} /> 
+                                        <div className='col-cat bg-light' style={{ overflow: 'hidden' }}>
+                                            <img alt='img' width='100%' className='img-1' src={image7} />
                                         </div>
                                         <div className='text-uppercase fw-bold'>
                                             floor cleaner
                                         </div>
                                     </div>
                                     <div className='col-6 col-md-3 p-2'>
-                                        <div className='col-cat bg-light' style={{ overflow:'hidden'}}>
-                                            <img width='100%' className='img-1' src={image7} /> 
+                                        <div className='col-cat bg-light' style={{ overflow: 'hidden' }}>
+                                            <img alt='img' width='100%' className='img-1' src={image7} />
                                         </div>
                                         <div className='text-uppercase fw-bold'>
                                             animal cleaner
@@ -201,7 +221,7 @@ const OurProducts = () => {
                     <div className='bg-secondary my-4'>
                         <div className=''>
                             <div className='row h-100'>
-                                <div className='col-12 col-md-4 bg-info'>
+                                <div className='col-12 col-md-4' style={{ backgroundColor: 'rgb(247,214,68)' }}>
                                     <div className='text-dark d-flex justify-content-center flex-column p-5'>
                                         <div className='fw-bold h1'>
                                             Gear up in Gorpcore!
@@ -211,13 +231,12 @@ const OurProducts = () => {
                                         </div>
                                         <div className='mt-5'>
                                             <button className='btn btn-outline-dark btn-lg p-2 rounded-0'>Check this out</button>
-
                                         </div>
                                     </div>
                                 </div>
                                 <div className='col-12 col-md-8 m-0 p-0'>
                                     <div style={{ height: '50vh', overflow: 'hidden' }}>
-                                        <img style={{ maxWidth: '100%', minHeight: '100%' }} src={image6} />
+                                        <img alt='img' style={{ maxWidth: '100%', minHeight: '100%' }} src={image6} />
                                     </div>
                                 </div>
 

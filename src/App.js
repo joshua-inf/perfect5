@@ -9,6 +9,7 @@ import ScrollToTop from './Scrolltotop';
 import ConatctUs from './components/pages/ContactUs';
 import OurProducts from './components/pages/OurProducts';
 import Services from './components/pages/Services';
+import OurProductsDetails from './components/pages/ProductComp/ProductDetails';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/ContactUs' element={<ConatctUs/>}/>
           <Route path='/OurProducts' element={<OurProducts/>}/>
           <Route path='/services' element={<Services/>}/>
+          <Route path='/OurProductsDet' element={<OurProductsDetails/>}/>
         </Routes>
         </div>
         <Footer/>
