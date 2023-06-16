@@ -61,6 +61,27 @@ const ConatctUs = () => {
                             
                             </div>
                         </div>
+                        <div className="p-5">
+                        <div style={{backgroundColor:'rgb(255,255,255,0.5)'}} className='border border-white' >
+                                <div className='p-4'>
+                                    <h3>Inquiry</h3>
+                                    <div className='py-2'>
+                                        <div className='d-flex' style={{gap:'5px'}}>
+                                            <input placeholder='firstname' style={{height:'50px', outline:'none'}} type='text' className='p-3 bg-dark text-white w-100'/>
+                                            <input placeholder='lastname' style={{height:'50px', outline:'none'}} className='p-3 mb-3 bg-dark text-white w-100'/>
+                                        </div>
+                                        <div>
+                                            <input placeholder='emai address' style={{height:'50px', outline:'none'}} className='p-3 mb-3 bg-dark text-white w-100'/><br/>
+                                            <input placeholder='phone number' style={{height:'50px', outline:'none'}} className='p-3 mb-3 bg-dark text-white w-100'/><br/>
+                                            <textarea placeholder='let us know how we can help' style={{height:'200px',resize:'none', outline:'none'}} className='p-3 bg-dark text-white w-100'/>
+                                        </div>
+                                    </div>
+                                    <button className='btn px-5  py-3 rounded-0 btn-outline-dark'>
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </motion.div>
