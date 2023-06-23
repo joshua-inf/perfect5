@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/perfect5/static/css/main.5a26351a.css",
-    "main.js": "/perfect5/static/js/main.e2f376f8.js",
+    "main.js": "/perfect5/static/js/main.6f4eacc4.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
+    "static/media/clean4.jpg": "/perfect5/static/media/clean4.aeed0e78cb7b1baba6b3.jpg",
     "static/media/perfectsomething.jpg": "/perfect5/static/media/perfectsomething.d61d0275c94fa634deee.jpg",
     "static/media/image21.jpg": "/perfect5/static/media/image21.9f7289a6733d81fe364f.jpg",
-    "static/media/bgabt.jpg": "/perfect5/static/media/bgabt.b1d198c3949253a1b033.jpg",
     "static/media/basket.png": "/perfect5/static/media/basket.3169bc02a11010009fd0.png",
     "static/media/image20.jpg": "/perfect5/static/media/image20.76b08d0b1da668f36ee9.jpg",
     "static/media/clean0.jpg": "/perfect5/static/media/clean0.60a8175d4a2d83fef71d.jpg",
@@ -14,20 +14,21 @@
     "static/media/stuff.png": "/perfect5/static/media/stuff.5baa47510a0464b5b66a.png",
     "static/media/desk.jpg": "/perfect5/static/media/desk.810ea1e59b7d4863c870.jpg",
     "static/media/services.jpg": "/perfect5/static/media/services.08e6f3324957a4de9b70.jpg",
+    "static/media/perfectfivebuilding.jpg": "/perfect5/static/media/perfectfivebuilding.82c27ed4d3996c4d80cd.jpg",
     "static/media/clean2.jpeg": "/perfect5/static/media/clean2.0e814d9b2a4a0651585f.jpeg",
     "static/media/stuff1.jpg": "/perfect5/static/media/stuff1.3b63abc6ac6021f62324.jpg",
     "static/media/clean5.jpeg": "/perfect5/static/media/clean5.d418bbbb98bcbbb4d33a.jpeg",
     "static/media/Perfect5-side.png": "/perfect5/static/media/Perfect5-side.45534248bc5da25575cc.png",
     "static/media/111.webp": "/perfect5/static/media/111.ea6ae317e6dab094a647.webp",
     "static/media/p5logo.png": "/perfect5/static/media/p5logo.27f46d77c619ad389036.png",
+    "static/media/Perfect 5 -side White.png": "/perfect5/static/media/Perfect 5 -side White.a0f40cffc198f1ed8cba.png",
     "index.html": "/perfect5/index.html",
-    "static/media/facebook1.svg": "/perfect5/static/media/facebook1.d0e6c35f87cabc4c3d016b72ba214d1f.svg",
     "main.5a26351a.css.map": "/perfect5/static/css/main.5a26351a.css.map",
-    "main.e2f376f8.js.map": "/perfect5/static/js/main.e2f376f8.js.map",
+    "main.6f4eacc4.js.map": "/perfect5/static/js/main.6f4eacc4.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a26351a.css",
-    "static/js/main.e2f376f8.js"
+    "static/js/main.6f4eacc4.js"
   ]
 }
