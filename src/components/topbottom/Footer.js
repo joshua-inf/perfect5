@@ -29,7 +29,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className='d-flex text-secondary p-2 justify-content-evenly' >
+                <div className='d-flex text-light p-2 justify-content-evenly' style={{fontSize:'9px'}}>
                     <div className='d-flex' >
                         <div className='d-flex justify-content-center flex-column me-2'>Socials &#124;</div>
                         <div className=' d-flex justify-content-center flex-column'>

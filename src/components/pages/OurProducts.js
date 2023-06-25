@@ -137,115 +137,99 @@ const OurProducts = () => {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-
-                <div className='' style={{ overflow: 'hidden' }}>
-                    <div className='text-white d-flex flex-column justify-content-center' style={{ minHeight: '75vh' }}>
-                        <div className='text-uppercase'>
-                            <h2>products </h2>
-                            <hr />
-                        </div>
-
-                        <ContainerProduct1 />
-                    </div>
-                    <div className='bg-secondary my-4'>
-                        <div className=''>
-                            <div className='row h-100'>
-                                <div className='col-12 col-md-4 ' style={{ backgroundColor: 'rgb(215,215,215)' }}>
-                                    <div className='text-dark d-flex justify-content-center flex-column p-5'>
-                                        <div className='fw-bold h1'>
-                                            Gear up in Gorpcore!
-                                        </div>
-                                        <div className=''>
-                                            Shop the look from Salomon, The North Face, and more!
-                                        </div>
-                                        <div className='mt-5'>
-                                            <button className='btn btn-outline-dark btn-lg p-2 rounded-0'>Check this out</button>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='col-12 col-md-8 m-0 p-0'>
-                                    <div style={{ height: '50vh', overflow: 'hidden' }}>
-                                        <img alt='img' style={{ maxWidth: '100%', minHeight: '100%' }} src={image} />
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className='text-white d-flex flex-column justify-content-center my-2' style={{ minHeight: '75vh' }}>
+                <div style={{minHeight:'100vh'}}>
+                    <div className='p-3'>
                         <div>
-                            <div className=' px-4 text-uppercase h3'>
-                                Browse by category
-                            </div>
-                            <hr className='m-4 my-0' />
-                            <div>
-
-                                <div className='row p-4'>
-                                    <div className='col-6 col-md-3 p-2'>
-                                        <div className='col-cat bg-light' style={{ overflow: 'hidden' }}>
-                                            <img alt='img' width='100%' className='img-1' src={image7} />
-                                        </div>
-                                        <div className='text-uppercase fw-bold'>
-                                            Body wash
-                                        </div>
-                                    </div>
-                                    <div className='col-6 col-md-3 p-2'>
-                                        <div className='col-cat bg-light' style={{ overflow: 'hidden' }}>
-                                            <img alt='img' width='100%' className='img-1' src={image7} />
-                                        </div>
-                                        <div className='text-uppercase fw-bold'>
-                                            dish wash
-                                        </div>
-                                    </div>
-                                    <div className='col-6 col-md-3 p-2'>
-                                        <div className='col-cat bg-light' style={{ overflow: 'hidden' }}>
-                                            <img alt='img' width='100%' className='img-1' src={image7} />
-                                        </div>
-                                        <div className='text-uppercase fw-bold'>
-                                            floor cleaner
-                                        </div>
-                                    </div>
-                                    <div className='col-6 col-md-3 p-2'>
-                                        <div className='col-cat bg-light' style={{ overflow: 'hidden' }}>
-                                            <img alt='img' width='100%' className='img-1' src={image7} />
-                                        </div>
-                                        <div className='text-uppercase fw-bold'>
-                                            animal cleaner
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='bg-secondary my-4'>
-                        <div className=''>
-                            <div className='row h-100'>
-                                <div className='col-12 col-md-4' style={{ backgroundColor: 'rgb(247,214,68)' }}>
-                                    <div className='text-dark d-flex justify-content-center flex-column p-5'>
-                                        <div className='fw-bold h1'>
-                                            Gear up in Gorpcore!
-                                        </div>
+                            <div className='row'>
+                                <div className='col-12 my-3 col-md-4 col-lg-3'>
+                                    <div>
                                         <div className=''>
-                                            Shop the look from Salomon, The North Face, and more!
-                                        </div>
-                                        <div className='mt-5'>
-                                            <button className='btn btn-outline-dark btn-lg p-2 rounded-0'>Check this out</button>
+                                            <div className=' p-0'>
+                                                <div className='bg-dark p-3' style={{height:"100%", width:'100%'}}>
+                                                    <img src={image2} width='100%'/>
+                                                </div>
+                                            </div>
+                                            <div className='p-0'>
+                                                <div className='bg-light p-3' style={{height:'100%', width:'100%'}}>
+                                                    <div className='fw-bold'>Product Name</div>
+                                                    <div style={{fontSize:'15px'}}>
+                                                        Perfect 5 something really interestig about this product
+                                                        that will prolly make you wanna buy or try using in your household
+                                                        couse this is what this container is about....
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-12 col-md-8 m-0 p-0'>
-                                    <div style={{ height: '50vh', overflow: 'hidden' }}>
-                                        <img alt='img' style={{ maxWidth: '100%', minHeight: '100%' }} src={image6} />
+                                <div className='col-12 my-3 col-md-4 col-lg-3'>
+                                    <div>
+                                        <div className=''>
+                                            <div className=' p-0'>
+                                                <div className='bg-dark p-3' style={{height:"100%", width:'100%'}}>
+                                                    <img src={image2} width='100%'/>
+                                                </div>
+                                            </div>
+                                            <div className='p-0'>
+                                                <div className='bg-light p-3' style={{height:'100%', width:'100%'}}>
+                                                    <div className='fw-bold'>Product Name</div>
+                                                    <div style={{fontSize:'15px'}}>
+                                                        Perfect 5 something really interestig about this product
+                                                        that will prolly make you wanna buy or try using in your household
+                                                        couse this is what this container is about....
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-
+                                <div className='col-12 my-3 col-md-4 col-lg-3'>
+                                    <div>
+                                        <div className=''>
+                                            <div className=' p-0'>
+                                                <div className='bg-dark p-3' style={{height:"100%", width:'100%'}}>
+                                                    <img src={image2} width='100%'/>
+                                                </div>
+                                            </div>
+                                            <div className='p-0'>
+                                                <div className='bg-light p-3' style={{height:'100%', width:'100%'}}>
+                                                    <div className='fw-bold'>Product Name</div>
+                                                    <div style={{fontSize:'15px'}}>
+                                                        Perfect 5 something really interestig about this product
+                                                        that will prolly make you wanna buy or try using in your household
+                                                        couse this is what this container is about....
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='col-12 my-3 col-md-4 col-lg-3'>
+                                    <div>
+                                        <div className=''>
+                                            <div className=' p-0'>
+                                                <div className='bg-dark p-3' style={{height:"100%", width:'100%'}}>
+                                                    <img src={image2} width='100%'/>
+                                                </div>
+                                            </div>
+                                            <div className='p-0'>
+                                                <div className='bg-light p-3' style={{height:'100%', width:'100%'}}>
+                                                    <div className='fw-bold'>Product Name</div>
+                                                    <div style={{fontSize:'15px'}}>
+                                                        Perfect 5 something really interestig about this product
+                                                        that will prolly make you wanna buy or try using in your household
+                                                        couse this is what this container is about....
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </motion.div>
         </>
     )
