@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/perfect5/static/css/main.5a26351a.css",
-    "main.js": "/perfect5/static/js/main.6f4eacc4.js",
+    "main.js": "/perfect5/static/js/main.7439e906.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
-    "static/media/clean4.jpg": "/perfect5/static/media/clean4.aeed0e78cb7b1baba6b3.jpg",
     "static/media/perfectsomething.jpg": "/perfect5/static/media/perfectsomething.d61d0275c94fa634deee.jpg",
     "static/media/image21.jpg": "/perfect5/static/media/image21.9f7289a6733d81fe364f.jpg",
     "static/media/basket.png": "/perfect5/static/media/basket.3169bc02a11010009fd0.png",
     "static/media/image20.jpg": "/perfect5/static/media/image20.76b08d0b1da668f36ee9.jpg",
+    "static/media/full-shot-man-cleaning-doorknob.jpg": "/perfect5/static/media/full-shot-man-cleaning-doorknob.415425ae76e36dccefc2.jpg",
     "static/media/clean0.jpg": "/perfect5/static/media/clean0.60a8175d4a2d83fef71d.jpg",
     "static/media/clean8.jpg": "/perfect5/static/media/clean8.a40929a8c0a8a6c72f27.jpg",
     "static/media/stuff.jpg": "/perfect5/static/media/stuff.5614d8f122c0fc399347.jpg",
@@ -15,20 +15,27 @@
     "static/media/desk.jpg": "/perfect5/static/media/desk.810ea1e59b7d4863c870.jpg",
     "static/media/services.jpg": "/perfect5/static/media/services.08e6f3324957a4de9b70.jpg",
     "static/media/perfectfivebuilding.jpg": "/perfect5/static/media/perfectfivebuilding.82c27ed4d3996c4d80cd.jpg",
+    "static/media/bullseye-score-dartboard.jpg": "/perfect5/static/media/bullseye-score-dartboard.c0e88ac675c3e38957c5.jpg",
+    "static/media/successful-happy-business-team.jpg": "/perfect5/static/media/successful-happy-business-team.5b7638bb03b1a4054aff.jpg",
+    "static/media/people-conference-with-laptops-table.jpg": "/perfect5/static/media/people-conference-with-laptops-table.17444ec38dcc7212a770.jpg",
     "static/media/clean2.jpeg": "/perfect5/static/media/clean2.0e814d9b2a4a0651585f.jpeg",
+    "static/media/light-bulb-lit-many-lights.jpg": "/perfect5/static/media/light-bulb-lit-many-lights.7058e039070bb9369c62.jpg",
+    "static/media/business-people-shaking-hands-finishing-up-meeting-deals-business-concept.jpg": "/perfect5/static/media/business-people-shaking-hands-finishing-up-meeting-deals-business-concept.97d01ab7feca3a3207b7.jpg",
     "static/media/stuff1.jpg": "/perfect5/static/media/stuff1.3b63abc6ac6021f62324.jpg",
     "static/media/clean5.jpeg": "/perfect5/static/media/clean5.d418bbbb98bcbbb4d33a.jpeg",
     "static/media/Perfect5-side.png": "/perfect5/static/media/Perfect5-side.45534248bc5da25575cc.png",
     "static/media/111.webp": "/perfect5/static/media/111.ea6ae317e6dab094a647.webp",
-    "static/media/p5logo.png": "/perfect5/static/media/p5logo.27f46d77c619ad389036.png",
     "static/media/Perfect 5 -side White.png": "/perfect5/static/media/Perfect 5 -side White.a0f40cffc198f1ed8cba.png",
+    "static/media/DAPPZambia-logo.svg": "/perfect5/static/media/DAPPZambia-logo.4858f10cf0ed4bb5c5ab724830acd5c7.svg",
+    "static/media/zambia-sugar-white.svg": "/perfect5/static/media/zambia-sugar-white.00bcbd3b7c3d157c2d732dc98b16b334.svg",
+    "static/media/bw-choppi-logo.webp": "/perfect5/static/media/bw-choppi-logo.d7b923c8894c218c1318.webp",
     "index.html": "/perfect5/index.html",
     "main.5a26351a.css.map": "/perfect5/static/css/main.5a26351a.css.map",
-    "main.6f4eacc4.js.map": "/perfect5/static/js/main.6f4eacc4.js.map",
+    "main.7439e906.js.map": "/perfect5/static/js/main.7439e906.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a26351a.css",
-    "static/js/main.6f4eacc4.js"
+    "static/js/main.7439e906.js"
   ]
 }
