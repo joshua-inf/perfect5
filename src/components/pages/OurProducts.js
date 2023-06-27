@@ -3,8 +3,8 @@ import image6 from '../../images/image21.jpg'
 import image7 from '../../images/111.webp'
 
 import image2 from '../../images/basket.png'
-import image3 from '../../images/clean2.jpeg'
-import image4 from '../../images/clean0.jpg'
+import image3 from '../../images/ecological-cleaning-products-concept.jpg'
+import image4 from '../../images/wepik-export-20230627143828I8tM.png'
 import { motion } from 'framer-motion'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from 'react-icons/ai'
@@ -89,25 +89,29 @@ const OurProducts = () => {
                     slidesPerView={1}
                     pagination={{ clickable: true }}
                     modules={[Navigation, Pagination]}
+
                 >
                     <SwiperSlide>
                         <div>
-                            <div className="" style={{ background: `url(${image3}) fixed right`, backgroundSize: 'cover', height: '70vh' }}>
-                                <div className='row p-5 h-100' >
-                                    <div className='col-12 col-md-5  d-flex flex-column justify-content-center'>
-                                        <div className=''>
-                                            <div className=' p-4 bg-light shadow rounded' >
-                                                <div className='text-uppercase' style={{ fontSize: '25px', fontWeight: 'bold' }}>welcome to our store</div>
-                                                <div style={{ fontSize: '30px' }}>
-                                                    Lorem ipsum dolor sit amet
-                                                </div>
+                            <div>
+                                <div className='row'>
+                                    <div className='col-12 col-md-8' style={{backgroundColor:'#C5C6D0',height:'70vh'}}>
+                                        <div className='d-flex justify-content-center h-100'>
+                                            <div className='d-flex justify-content-center flex-column'>
                                                 <div>
-                                                    <button className='btn m-2 rounded-0 p-3 text-uppercase fw-bolder btn-outline-success'>contact us now</button>
+                                                    <div className='display-1 fw-bold text-uppercase'>check out our products</div>
+                                                    <div>Some text about the product in question</div>
+                                                    <button className='btn btn-outline-secondary rounded-0 btn-sm text-uppercase fw-bold'>contact us</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-7 d-md-block d-none'>
+                                    <div className='col-md-4 d-none d-md-block op' style={{ backgroundColor:'#808080',height:'70vh'}}>
+                                        <div style={{height:'100%'}} className='d-flex flex-column justify-content-center'>
+                                            <div className='' style={{height:'350px', width:'350px', transform:'translateX(-25%)', overflow:'hidden'}}>
+                                                <img src={image3} width='100%'/>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -115,118 +119,52 @@ const OurProducts = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <div className="" style={{ background: `url(${image4}) fixed right`, backgroundSize: 'cover', height: '70vh' }}>
-                                <div className='row p-5 h-100' >
-                                    <div className='col-12 col-md-5  d-flex flex-column justify-content-center'>
-                                        <div className=''>
-                                            <div className='p-4 bg-light shadow rounded' >
-                                                <div className='text-uppercase' style={{ fontSize: '25px', fontWeight: 'bold' }}>welcome to our store</div>
-                                                <div style={{ fontSize: '30px' }}>
-                                                    Lorem ipsum dolor sit amet
-                                                </div>
+                            <div>
+                                <div className='row'>
+                                    <div className='col-12 col-md-8' style={{backgroundColor:'#C5C6D0',height:'70vh'}}>
+                                        <div className='d-flex justify-content-center h-100'>
+                                            <div className='d-flex justify-content-center flex-column'>
                                                 <div>
-                                                    <button className='btn m-2 rounded-0 p-3 text-uppercase fw-bolder btn-outline-success'>contact us now</button>
+                                                    <div className='display-1 fw-bold text-uppercase'>check out our products</div>
+                                                    <div>Some text about the product in question</div>
+                                                    <button className='btn btn-outline-secondary rounded-0 btn-sm text-uppercase fw-bold'>contact us</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='col-7 d-md-block d-none'>
+                                    <div className='col-md-4 d-none d-md-block op' style={{ backgroundColor:'#808080',height:'70vh'}}>
+                                        <div style={{height:'100%'}} className='d-flex flex-column justify-content-center'>
+                                            <div className='' style={{height:'350px', width:'350px', transform:'translateX(-25%)', overflow:'hidden'}}>
+                                                <img src={image3} width='100%'/>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>
-                <div style={{minHeight:'100vh'}}>
-                    <div className='p-3'>
+                <div className='bg-white' style={{minHeight:'100vh'}}>
+                    <div className=''>
                         <div>
-                            <div className='row'>
-                                <div className='col-12 my-3 col-md-4 col-lg-3'>
-                                    <div>
-                                        <div className=''>
-                                            <div className=' p-0'>
-                                                <div className='bg-dark p-3' style={{height:"100%", width:'100%'}}>
-                                                    <img src={image2} width='100%'/>
-                                                </div>
-                                            </div>
-                                            <div className='p-0'>
-                                                <div className='bg-light p-3' style={{height:'100%', width:'100%'}}>
-                                                    <div className='fw-bold'>Product Name</div>
-                                                    <div style={{fontSize:'15px'}}>
-                                                        Perfect 5 something really interestig about this product
-                                                        that will prolly make you wanna buy or try using in your household
-                                                        couse this is what this container is about....
-                                                    </div>
+                           <div style={{height:'70vh', background:`url(${image4}) no-repeat center`, minHeight:"100vh", backgroundSize:'cover'}}>
+                            <div style={{backgroundColor:'rgba(0,0,0,0.7)', height:'100%'}}>
+                                <div className='h-100 p-3'>
+                                    <div className='row h-100'>
+                                        <div className='col-12 col-md-6'>
+                                            <div className='flex-column text-white h-100 ps-4 justify-content-center d-flex'>
+                                                <div>
+                                                    <div className='fw-bold display-1'>Hair Shampoo</div>
+                                                    <div>some writing about this stuff</div>
+                                                    <button className='btn btn-outline-light fw-bold text-uppercase'>contact us</button>
                                                 </div>
                                             </div>
                                         </div>
+                                        <div className='col-6'></div>
                                     </div>
                                 </div>
-                                <div className='col-12 my-3 col-md-4 col-lg-3'>
-                                    <div>
-                                        <div className=''>
-                                            <div className=' p-0'>
-                                                <div className='bg-dark p-3' style={{height:"100%", width:'100%'}}>
-                                                    <img src={image2} width='100%'/>
-                                                </div>
-                                            </div>
-                                            <div className='p-0'>
-                                                <div className='bg-light p-3' style={{height:'100%', width:'100%'}}>
-                                                    <div className='fw-bold'>Product Name</div>
-                                                    <div style={{fontSize:'15px'}}>
-                                                        Perfect 5 something really interestig about this product
-                                                        that will prolly make you wanna buy or try using in your household
-                                                        couse this is what this container is about....
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='col-12 my-3 col-md-4 col-lg-3'>
-                                    <div>
-                                        <div className=''>
-                                            <div className=' p-0'>
-                                                <div className='bg-dark p-3' style={{height:"100%", width:'100%'}}>
-                                                    <img src={image2} width='100%'/>
-                                                </div>
-                                            </div>
-                                            <div className='p-0'>
-                                                <div className='bg-light p-3' style={{height:'100%', width:'100%'}}>
-                                                    <div className='fw-bold'>Product Name</div>
-                                                    <div style={{fontSize:'15px'}}>
-                                                        Perfect 5 something really interestig about this product
-                                                        that will prolly make you wanna buy or try using in your household
-                                                        couse this is what this container is about....
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='col-12 my-3 col-md-4 col-lg-3'>
-                                    <div>
-                                        <div className=''>
-                                            <div className=' p-0'>
-                                                <div className='bg-dark p-3' style={{height:"100%", width:'100%'}}>
-                                                    <img src={image2} width='100%'/>
-                                                </div>
-                                            </div>
-                                            <div className='p-0'>
-                                                <div className='bg-light p-3' style={{height:'100%', width:'100%'}}>
-                                                    <div className='fw-bold'>Product Name</div>
-                                                    <div style={{fontSize:'15px'}}>
-                                                        Perfect 5 something really interestig about this product
-                                                        that will prolly make you wanna buy or try using in your household
-                                                        couse this is what this container is about....
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
                             </div>
+                           </div>
                         </div>
                     </div>
                 </div>

@@ -39,12 +39,12 @@ const About = () => {
                                                 <div className='col-12 col-md-10'>
                                                     <div>
                                                         <div className='row'>
-                                                            <div className='col-12 col-md-4'>
+                                                            <div className='col-12 col-md-6'>
                                                                 <div>
                                                                     <img src={image1} width='100%' />
                                                                 </div>
                                                             </div>
-                                                            <div className='p-2 col-md-8 col-12 ' style={{ textAlign: 'justify' }}>
+                                                            <div className='p-2 col-md-6 col-12 ' style={{ textAlign: 'justify' }}>
                                                                 <p className='' style={{ fontSize: '' }}>
                                                                     Perfect five was founded by an individual with vast experience in both cleaning industry and
                                                                     management skill way back in 2006 and in 2014 it was registered with the registrar of compa­ nies
