@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/perfect5/static/css/main.5a26351a.css",
-    "main.js": "/perfect5/static/js/main.7439e906.js",
+    "main.js": "/perfect5/static/js/main.4984afb9.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
     "static/media/perfectsomething.jpg": "/perfect5/static/media/perfectsomething.d61d0275c94fa634deee.jpg",
     "static/media/image21.jpg": "/perfect5/static/media/image21.9f7289a6733d81fe364f.jpg",
+    "static/media/wepik-export-20230627143828I8tM.png": "/perfect5/static/media/wepik-export-20230627143828I8tM.d6a7932033c0604c815c.png",
     "static/media/basket.png": "/perfect5/static/media/basket.3169bc02a11010009fd0.png",
     "static/media/image20.jpg": "/perfect5/static/media/image20.76b08d0b1da668f36ee9.jpg",
     "static/media/full-shot-man-cleaning-doorknob.jpg": "/perfect5/static/media/full-shot-man-cleaning-doorknob.415425ae76e36dccefc2.jpg",
-    "static/media/clean0.jpg": "/perfect5/static/media/clean0.60a8175d4a2d83fef71d.jpg",
     "static/media/clean8.jpg": "/perfect5/static/media/clean8.a40929a8c0a8a6c72f27.jpg",
+    "static/media/ecological-cleaning-products-concept.jpg": "/perfect5/static/media/ecological-cleaning-products-concept.7f4b7d1d5905e7c82dfd.jpg",
     "static/media/stuff.jpg": "/perfect5/static/media/stuff.5614d8f122c0fc399347.jpg",
     "static/media/stuff.png": "/perfect5/static/media/stuff.5baa47510a0464b5b66a.png",
     "static/media/desk.jpg": "/perfect5/static/media/desk.810ea1e59b7d4863c870.jpg",
@@ -18,7 +19,6 @@
     "static/media/bullseye-score-dartboard.jpg": "/perfect5/static/media/bullseye-score-dartboard.c0e88ac675c3e38957c5.jpg",
     "static/media/successful-happy-business-team.jpg": "/perfect5/static/media/successful-happy-business-team.5b7638bb03b1a4054aff.jpg",
     "static/media/people-conference-with-laptops-table.jpg": "/perfect5/static/media/people-conference-with-laptops-table.17444ec38dcc7212a770.jpg",
-    "static/media/clean2.jpeg": "/perfect5/static/media/clean2.0e814d9b2a4a0651585f.jpeg",
     "static/media/light-bulb-lit-many-lights.jpg": "/perfect5/static/media/light-bulb-lit-many-lights.7058e039070bb9369c62.jpg",
     "static/media/business-people-shaking-hands-finishing-up-meeting-deals-business-concept.jpg": "/perfect5/static/media/business-people-shaking-hands-finishing-up-meeting-deals-business-concept.97d01ab7feca3a3207b7.jpg",
     "static/media/stuff1.jpg": "/perfect5/static/media/stuff1.3b63abc6ac6021f62324.jpg",
@@ -31,11 +31,11 @@
     "static/media/bw-choppi-logo.webp": "/perfect5/static/media/bw-choppi-logo.d7b923c8894c218c1318.webp",
     "index.html": "/perfect5/index.html",
     "main.5a26351a.css.map": "/perfect5/static/css/main.5a26351a.css.map",
-    "main.7439e906.js.map": "/perfect5/static/js/main.7439e906.js.map",
+    "main.4984afb9.js.map": "/perfect5/static/js/main.4984afb9.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a26351a.css",
-    "static/js/main.7439e906.js"
+    "static/js/main.4984afb9.js"
   ]
 }
