@@ -144,10 +144,10 @@ const OurProducts = () => {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-                <div className='bg-white' style={{minHeight:'100vh'}}>
+                <div className='bg-white' style={{minHeight:''}}>
                     <div className=''>
                         <div>
-                           <div style={{height:'70vh', background:`url(${image4}) no-repeat center`, minHeight:"100vh", backgroundSize:'cover'}}>
+                           <div style={{height:'50vh', background:`url(${image4}) no-repeat center`, minHeight:"50vh", backgroundSize:'cover'}}>
                             <div style={{backgroundColor:'rgba(0,0,0,0.7)', height:'100%'}}>
                                 <div className='h-100 p-3'>
                                     <div className='row h-100'>
