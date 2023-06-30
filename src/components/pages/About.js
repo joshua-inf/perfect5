@@ -39,11 +39,7 @@ const About = () => {
                                                 <div className='col-12 col-md-10'>
                                                     <div>
                                                         <div className='row'>
-                                                            <div className='col-12 col-md-6'>
-                                                                <div>
-                                                                    <img src={image1} width='100%' />
-                                                                </div>
-                                                            </div>
+                                                            
                                                             <div className='p-2 col-md-6 col-12 ' style={{ textAlign: 'justify' }}>
                                                                 <p className='' style={{ fontSize: '' }}>
                                                                     Perfect five was founded by an individual with vast experience in both cleaning industry and
@@ -64,6 +60,11 @@ const About = () => {
                                                                     create look and feel of your company environment. We know that your company's trust on
 
                                                                 </p>
+                                                            </div>
+                                                            <div className='col-12 col-md-6'>
+                                                                <div className='bg-dark' style={{minHeight:'100%', width:'100%', overflow:'hidden'}}>
+                                                                    {/* <img src={image1}  /> */}
+                                                                </div>
                                                             </div>
 
                                                         </div>
