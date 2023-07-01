@@ -1,9 +1,9 @@
-import image from '../../images/pleased-holding-bucket-cleaning-tools-with-sponge-young-africanamerican-cleaner-male-uniform-with-gloves-isolated-green-background.jpg'
+import image from '../../images/afro.jpg'
 import image6 from '../../images/full-shot-people-cleaning-office.jpg'
 import image7 from '../../images/hands-holding-cleaning-tools-solutions.jpg'
 import image8 from '../../images/african-americ.jpg'
 import image9 from '../../images/close-up-hands-holding-cleaning-supplies.jpg'
-import image10 from '../../images/technology-digital-cyberspace-with-particles-digital-data-network-connections-big-data-connection-data-analysis-technology-digital-abstract-background-3d-rendering.jpg'
+import image10 from '../../images/tech.jpg'
 
 import image2 from '../../images/basket.png'
 import image3 from '../../images/wepik-export-202306302146339TsJ.png'
@@ -25,7 +25,6 @@ const goRight = () => {
     scroller.scrollLeft = scroller.scrollLeft -= 300;
 }
 const goLeft = () => {
-
     const scroller = document.getElementById('scroller')
     scroller.style.scrollBehavior = 'smooth';
     scroller.scrollLeft = scroller.scrollLeft += 300;
