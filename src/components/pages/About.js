@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import image from '../../images/perfectfivebuilding.jpg'
-import image1 from '../../images/full-shot-man-cleaning-doorknob.jpg'
+import image1 from '../../images/multicultural-businesswomen-group-meeting.jpg'
 import image2 from '../../logos/bw-choppi-logo.webp'
 import image3 from '../../logos/logo-1.png'
 import image4 from '../../logos/DAPPZambia-logo.svg'
@@ -35,12 +35,16 @@ const About = () => {
                                     <div className='p-3' >
                                         <div>
                                             <div className='row'>
-                                                <div className='col-md-1'></div>
-                                                <div className='col-12 col-md-10'>
+                                                <div className='col-12 col-md-12'>
                                                     <div>
                                                         <div className='row'>
-                                                            
-                                                            <div className='p-2 col-md-6 col-12 ' style={{ textAlign: 'justify' }}>
+                                                        <div className='col-12 col-md-6'>
+                                                                <div className='bg-dark' >
+                                                                    <img src={image1} width='100%' />
+                                                                </div>
+                                                            </div>
+                                                            <div className='px-2 col-md-6 col-12 ' style={{ textAlign: 'justify' }}>
+                                                                <div className=' h1'>Who We Are</div>
                                                                 <p className='' style={{ fontSize: '' }}>
                                                                     Perfect five was founded by an individual with vast experience in both cleaning industry and
                                                                     management skill way back in 2006 and in 2014 it was registered with the registrar of compa­ nies
@@ -61,16 +65,12 @@ const About = () => {
 
                                                                 </p>
                                                             </div>
-                                                            <div className='col-12 col-md-6'>
-                                                                <div className='bg-dark' style={{minHeight:'100%', width:'100%', overflow:'hidden'}}>
-                                                                    {/* <img src={image1}  /> */}
-                                                                </div>
-                                                            </div>
+                                                            
 
                                                         </div>
                                                     </div>
                                                     <div>
-                                                        <div className='p-0' >
+                                                        <div className='' >
                                                             <div className='bg-success px-4 d-flex flex-column justify-content-center' style={{ minHeight: '200px' }}>
                                                                 <div className='row'>
                                                                     <div className='col-12 col-md-3'>
@@ -169,7 +169,6 @@ const About = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-md-1'></div>
                                             </div>
                                         </div>
 

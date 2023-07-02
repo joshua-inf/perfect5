@@ -146,3 +146,16 @@
     }
 
 }
+
+.btn-cont {
+  padding: 10px 20px;
+  background-color: inherit;
+  border: 1px #ddd solid;
+  transition: all ease 0.5s;
+  color: #ddd;
+}
+.btn-cont:hover {
+  background-color: #ddd;
+  color: black;
+  transition: all ease 0.5s;
+}
