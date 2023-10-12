@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/perfect5/static/css/main.c59a99f3.css",
-    "main.js": "/perfect5/static/js/main.85a591e7.js",
+    "main.js": "/perfect5/static/js/main.75c57165.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
     "static/media/african-americ.jpg": "/perfect5/static/media/african-americ.d72c5dc5ecb04043fb29.jpg",
     "static/media/wepik-export-20230627143828I8tM.png": "/perfect5/static/media/wepik-export-20230627143828I8tM.d6a7932033c0604c815c.png",
@@ -34,11 +34,11 @@
     "static/media/bw-choppi-logo.webp": "/perfect5/static/media/bw-choppi-logo.d7b923c8894c218c1318.webp",
     "index.html": "/perfect5/index.html",
     "main.c59a99f3.css.map": "/perfect5/static/css/main.c59a99f3.css.map",
-    "main.85a591e7.js.map": "/perfect5/static/js/main.85a591e7.js.map",
+    "main.75c57165.js.map": "/perfect5/static/js/main.75c57165.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c59a99f3.css",
-    "static/js/main.85a591e7.js"
+    "static/js/main.75c57165.js"
   ]
 }
