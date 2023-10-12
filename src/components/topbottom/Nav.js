@@ -25,17 +25,6 @@ export function Nav() {
     return (
         <>
         <div>
-            <div style={{fontSize:'11px'}} className='bg-success px-2 d-flex justify-content-between' >
-                <div className='text-white'>
-                    contact us:  09something
-                </div>
-                <div className='text-white'>
-                    email address: something@mail.com
-                </div>
-                <div className='text-white'>
-                    social
-                </div>
-            </div>
         </div>
             <div  style={{position:'sticky', top:'0', zIndex:'3'}}>
                 <div className='d-flex nav justify-content-between px-4 py-2' style={{position:'absolute', right:'0', left:'0',transition:'0.5s', backgroundColor:`${color ? 'rgba(0,0,0,0.8)':'rgba(0,0,0,0.3)'}` }}>
