@@ -1,8 +1,9 @@
 import { motion } from "framer-motion"
 import image from '../../images/desk.jpg'
-import {BiPhoneCall} from 'react-icons/bi'
-import {FaMailBulk} from 'react-icons/fa'
-import {BiCurrentLocation} from 'react-icons/bi'
+import { BsHeadset } from 'react-icons/bs'
+import { IoMdSend } from 'react-icons/io'
+import { FaMapMarkerAlt } from 'react-icons/fa'
+import { AiOutlineMail } from 'react-icons/ai'
 const ConatctUs = () => {
     return (
         <>
@@ -11,74 +12,88 @@ const ConatctUs = () => {
                 animate={{ opacity: 1 }}
                 transition={{ type: 'spring', duration: 0.8, delay: 0.5 }}
             >
-                <div style={{ background: `url(${image}) center fixed no-repeat`, backgroundSize: 'cover'}}>
-                    <div style={{backgroundColor: 'rgba(0,0,0,0.6)',paddingTop:'100px', minHeight: '100vh'}}>
-                        <div className='d-flex flex-column justify-content-center text-center' style={{  height: '100%' }}>
+                <div style={{ background: `url(${image}) center fixed no-repeat`, backgroundSize: 'cover' }}>
+                    <div style={{ minHeight: '100vh' }}>
+                        <div className='d-flex  text-white justify-content-center text-center flex-column' style={{ backgroundColor: "rgba(0,0,0,0.6)", minHeight: '100vh', paddingTop: '150px' }}>
+                        <div className='d-flex flex-column justify-content-center text-center' style={{ height: '100%' }}>
                             <motion.div initial={{ y: '15vh', opacity: 0 }} animate={{ y: 0, opacity: 1, transition: { type: 'spring', duration: 4 } }}>
                                 <h3 className='display-2 fw-bold text-white text-uppercase'> contact <span className='text-success'>us</span></h3>
                             </motion.div>
                         </div>
-                        <div>
-                            <div className="pt-5">
-                                <div className="p-3 text-white">
-                                    <div className="row">
-                                        <div className="col-12 col-md-4 p-5">
-                                            <div className="d-flex p-3 flex-column" style={{cursor:'pointer',gap:'20px'}}>
-                                                <div className="text-center">
-                                                    <BiPhoneCall style={{fontSize:'100px'}} />
+                            <div>
+                                <div className='p-3'>
+                                    <div className='row'>
+                                        <div className='col-md-1'></div>
+                                        <div className='col-md-10 col-12'>
+                                            <div className='row'>
+                                                <div className='col-md-4 col-12'>
+                                                    <div className='py-4'>
+                                                        <div className='row'>
+                                                            <div className='col-12 p-2'>
+                                                                <div className='border-success contx border rounded  p-3 d-flex' >
+                                                                    <div className='d-flex justify-content-center border-success me-2 flex-column p-3' style={{ borderRight: "5px solid" }}><BsHeadset size={50} /></div>
+                                                                    <div className="d-flex justify-content-center" style={{alignItems:'center'}}>
+                                                                        <div style={{ fontSize: '11px' }}>
+                                                                            <div><b>Call</b> us</div>
+                                                                            <div>+260 767 432 198</div>
+                                                                            <div>+260 771 187 445</div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div className='col-12 p-2'>
+                                                                <div className='border-success contx border rounded  p-3 d-flex'>
+                                                                    <div className='d-flex justify-content-center border-success me-2 flex-column p-3 ' style={{ borderRight: "5px solid" }}><FaMapMarkerAlt className='' size={50} /></div>
+                                                                    <div>
+                                                                        <div style={{ fontSize: '11px' }}>
+                                                                            <div className='fw-bold'>Visit us</div>
+                                                                            <div>Plot # 1037</div>
+                                                                            <div>Chalala, Lusaka</div>
+                                                                        </div>
+                                                                        <a style={{ fontSize: '11px' }} href=''>Show map</a>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div className='col-12 p-2'>
+                                                                <div className='border-success contx border rounded  p-3 d-flex'>
+                                                                    <div className='d-flex justify-content-center border-success me-2 flex-column p-3 ' style={{ borderRight: "5px solid" }}><AiOutlineMail className='' size={50} /></div>
+                                                                        <div className='text-start d-flex justify-content-center' style={{ fontSize: '11px', alignItems:'center' }}>
+                                                                            <div>
+                                                                                <div className='fw-bold'>Send us an email</div>
+                                                                                <div>Perfect5cleaningsolution@gmail.com</div>
+                                                                            </div>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div className="text-uppercase text-center">
-                                                    <h1 style={{fontSize:'20px'}}>call us on</h1>
-                                                    <div>+260 767 432 198</div>
-                                                    <div>+260 771 187 445</div>
+                                                <div className='col-md-8 col-12'>
+                                                    <div className='py-5'>
+                                                        <form>
+                                                            <div className='d-md-flex ' style={{ gap: '20px' }}>
+                                                                <div className='w-100 text-start'>
+                                                                    <div>Email:</div>
+                                                                    <input required type='email' className='border border-success text-white p-2 w-100' style={{ backgroundColor: 'rgba(0,0,0,0)' }} />
+                                                                </div>
+                                                                <div className='w-100 text-start'>
+                                                                    <div>Subject (optional):</div>
+                                                                    <input type='text' placeholder='' className='border border-success text-white p-2 w-100' style={{ backgroundColor: 'rgba(0,0,0,0)' }} />
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <textarea style={{ resize: 'none', backgroundColor: 'rgba(0,0,0,0)', minHeight: '300px' }} className='border text-white p-2 border-success w-100 my-4' />
+                                                            </div>
+                                                            <button className='btn btn-outline-success text-white rounded-0 w-50 '>Send <IoMdSend className='text-white' size={20} /></button>
+                                                        </form>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-12 col-md-4 p-5">
-                                            <div className="d-flex p-3 flex-column" style={{cursor:'pointer',gap:'20px'}}>
-                                            <div className="text-center">
-                                                <FaMailBulk style={{fontSize:'100px'}} />
-                                                </div>
-                                                <div className=" text-center">
-                                                    <h1 style={{fontSize:'20px'}} className="text-uppercase ">email us on</h1>
-                                                    <div>Perfect5cleansolution@gmail.com</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-12 col-md-4 p-5">
-                                            <div className="d-flex p-3 flex-column" style={{cursor:'pointer',gap:'20px'}}>
-                                            <div className="text-center">
-                                                <BiCurrentLocation style={{fontSize:'100px'}}/>
-                                                </div>
-                                                <div className="text-center">
-                                                    <h1 style={{fontSize:'20px'}} className="text-uppercase ">visit us</h1>
-                                                    Plot number 1037,<br/> Chalala,<br/> Lusaka,<br/> Zambia.
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <div className='col-md-1'></div>
                                     </div>
-                                </div>
-                            
-                            </div>
-                        </div>
-                        <div className="p-5">
-                        <div style={{backgroundColor:'rgb(255,255,255,0.5)'}} className='border border-white' >
-                                <div className='p-4'>
-                                    <h3>Inquiry</h3>
-                                    <div className='py-2'>
-                                        <div className='d-flex' style={{gap:'5px'}}>
-                                            <input placeholder='firstname' style={{height:'50px', outline:'none'}} type='text' className='p-3 bg-dark text-white w-100'/>
-                                            <input placeholder='lastname' style={{height:'50px', outline:'none'}} className='p-3 mb-3 bg-dark text-white w-100'/>
-                                        </div>
-                                        <div>
-                                            <input placeholder='emai address' style={{height:'50px', outline:'none'}} className='p-3 mb-3 bg-dark text-white w-100'/><br/>
-                                            <input placeholder='phone number' style={{height:'50px', outline:'none'}} className='p-3 mb-3 bg-dark text-white w-100'/><br/>
-                                            <textarea placeholder='let us know how we can help' style={{height:'200px',resize:'none', outline:'none'}} className='p-3 bg-dark text-white w-100'/>
-                                        </div>
-                                    </div>
-                                    <button className='btn px-5  py-3 rounded-0 btn-outline-dark'>
-                                        Submit
-                                    </button>
                                 </div>
                             </div>
                         </div>
