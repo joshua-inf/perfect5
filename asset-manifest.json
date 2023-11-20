@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/perfect5/static/css/main.c59a99f3.css",
-    "main.js": "/perfect5/static/js/main.75c57165.js",
+    "main.css": "/perfect5/static/css/main.2e4bff29.css",
+    "main.js": "/perfect5/static/js/main.006382c9.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
     "static/media/african-americ.jpg": "/perfect5/static/media/african-americ.d72c5dc5ecb04043fb29.jpg",
     "static/media/wepik-export-20230627143828I8tM.png": "/perfect5/static/media/wepik-export-20230627143828I8tM.d6a7932033c0604c815c.png",
     "static/media/basket.png": "/perfect5/static/media/basket.3169bc02a11010009fd0.png",
-    "static/media/clean8.jpg": "/perfect5/static/media/clean8.a40929a8c0a8a6c72f27.jpg",
     "static/media/stuff.jpg": "/perfect5/static/media/stuff.5614d8f122c0fc399347.jpg",
     "static/media/stuff.png": "/perfect5/static/media/stuff.5baa47510a0464b5b66a.png",
     "static/media/desk.jpg": "/perfect5/static/media/desk.810ea1e59b7d4863c870.jpg",
-    "static/media/services.jpg": "/perfect5/static/media/services.08e6f3324957a4de9b70.jpg",
     "static/media/perfectfivebuilding.jpg": "/perfect5/static/media/perfectfivebuilding.82c27ed4d3996c4d80cd.jpg",
     "static/media/close-up-hands-holding-cleaning-supplies.jpg": "/perfect5/static/media/close-up-hands-holding-cleaning-supplies.9c8b0a8c00fc4d5e5f26.jpg",
+    "static/media/cleaning-concept-set-cleaning-.jpg": "/perfect5/static/media/cleaning-concept-set-cleaning-.c53f12f352cbff2f23e8.jpg",
     "static/media/bullseye-score-dartboard.jpg": "/perfect5/static/media/bullseye-score-dartboard.c0e88ac675c3e38957c5.jpg",
     "static/media/colorful-composition-with.jpg": "/perfect5/static/media/colorful-composition-with.a9eb319a0ae8dfb3f944.jpg",
     "static/media/full-shot-people-cleaning-office.jpg": "/perfect5/static/media/full-shot-people-cleaning-office.2228d329c76178f21cc5.jpg",
@@ -28,17 +27,17 @@
     "static/media/afro.jpg": "/perfect5/static/media/afro.9a642017c3ed6da25c69.jpg",
     "static/media/clean5.jpeg": "/perfect5/static/media/clean5.d418bbbb98bcbbb4d33a.jpeg",
     "static/media/Perfect5-side.png": "/perfect5/static/media/Perfect5-side.45534248bc5da25575cc.png",
-    "static/media/DAPPZambia-logo.svg": "/perfect5/static/media/DAPPZambia-logo.4858f10cf0ed4bb5c5ab724830acd5c7.svg",
+    "static/media/DAPPZambia-logo.svg": "/perfect5/static/media/DAPPZambia-logo.f64a61cb1b7f9e74e8e27821bed97a4d.svg",
     "static/media/zambia-sugar-white.svg": "/perfect5/static/media/zambia-sugar-white.00bcbd3b7c3d157c2d732dc98b16b334.svg",
     "static/media/choice.png": "/perfect5/static/media/choice.35c3a701235339321f52.png",
     "static/media/bw-choppi-logo.webp": "/perfect5/static/media/bw-choppi-logo.d7b923c8894c218c1318.webp",
     "index.html": "/perfect5/index.html",
-    "main.c59a99f3.css.map": "/perfect5/static/css/main.c59a99f3.css.map",
-    "main.75c57165.js.map": "/perfect5/static/js/main.75c57165.js.map",
+    "main.2e4bff29.css.map": "/perfect5/static/css/main.2e4bff29.css.map",
+    "main.006382c9.js.map": "/perfect5/static/js/main.006382c9.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c59a99f3.css",
-    "static/js/main.75c57165.js"
+    "static/css/main.2e4bff29.css",
+    "static/js/main.006382c9.js"
   ]
 }
