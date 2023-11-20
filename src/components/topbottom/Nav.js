@@ -43,7 +43,7 @@ export function Nav() {
                                 <li className='d-flex flex-column justify-content-center'><NavLink className='text-decoration-none' to='/'>Home</NavLink></li>
                                 <li className='d-flex flex-column justify-content-center'><NavLink className='text-decoration-none' to='/aboutUs/'>about us</NavLink></li>
                                 <li className='d-flex flex-column justify-content-center'><NavLink className=' text-decoration-none' to='/services'>services</NavLink></li>
-                                <li className='d-flex flex-column justify-content-center'><NavLink className=' text-decoration-none' to='/ourProducts'>our products</NavLink></li>
+                                {/* <li className='d-flex flex-column justify-content-center'><NavLink className=' text-decoration-none' to='/ourProducts'>our products</NavLink></li> */}
                                 <li className='d-flex flex-column justify-content-center'><NavLink className='text-decoration-none' to='/ContactUs'>contact us</NavLink></li>
                             </ul>
                         </div>
