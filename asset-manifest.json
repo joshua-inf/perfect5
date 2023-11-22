@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/perfect5/static/css/main.2e4bff29.css",
-    "main.js": "/perfect5/static/js/main.006382c9.js",
+    "main.js": "/perfect5/static/js/main.0eeeecb3.js",
     "static/js/787.cda612ba.chunk.js": "/perfect5/static/js/787.cda612ba.chunk.js",
     "static/media/african-americ.jpg": "/perfect5/static/media/african-americ.d72c5dc5ecb04043fb29.jpg",
     "static/media/wepik-export-20230627143828I8tM.png": "/perfect5/static/media/wepik-export-20230627143828I8tM.d6a7932033c0604c815c.png",
     "static/media/basket.png": "/perfect5/static/media/basket.3169bc02a11010009fd0.png",
+    "static/media/side-view-adult-male-cleaning-window.jpg": "/perfect5/static/media/side-view-adult-male-cleaning-window.1c3747cd98f7b9081127.jpg",
     "static/media/stuff.jpg": "/perfect5/static/media/stuff.5614d8f122c0fc399347.jpg",
     "static/media/stuff.png": "/perfect5/static/media/stuff.5baa47510a0464b5b66a.png",
     "static/media/desk.jpg": "/perfect5/static/media/desk.810ea1e59b7d4863c870.jpg",
@@ -25,19 +26,27 @@
     "static/media/business-people-shaking-hands-finishing-up-meeting-deals-business-concept.jpg": "/perfect5/static/media/business-people-shaking-hands-finishing-up-meeting-deals-business-concept.97d01ab7feca3a3207b7.jpg",
     "static/media/stuff1.jpg": "/perfect5/static/media/stuff1.3b63abc6ac6021f62324.jpg",
     "static/media/afro.jpg": "/perfect5/static/media/afro.9a642017c3ed6da25c69.jpg",
+    "static/media/logos-8.png": "/perfect5/static/media/logos-8.50f61a25bb68242d2f72.png",
     "static/media/clean5.jpeg": "/perfect5/static/media/clean5.d418bbbb98bcbbb4d33a.jpeg",
+    "static/media/logos-1.png": "/perfect5/static/media/logos-1.772287b30d2028237d22.png",
+    "static/media/logos-6.png": "/perfect5/static/media/logos-6.c1d93fdbcb5a9f294108.png",
+    "static/media/logos-7.png": "/perfect5/static/media/logos-7.3e171ce1208e33d59f88.png",
     "static/media/Perfect5-side.png": "/perfect5/static/media/Perfect5-side.45534248bc5da25575cc.png",
+    "static/media/logos-3.png": "/perfect5/static/media/logos-3.9039725a5a9a5c5adaef.png",
+    "static/media/logos-4.png": "/perfect5/static/media/logos-4.7426c27b8cb315e6abf6.png",
+    "static/media/logos-5.png": "/perfect5/static/media/logos-5.2bc88f1f2e67201d0d7c.png",
     "static/media/DAPPZambia-logo.svg": "/perfect5/static/media/DAPPZambia-logo.f64a61cb1b7f9e74e8e27821bed97a4d.svg",
     "static/media/zambia-sugar-white.svg": "/perfect5/static/media/zambia-sugar-white.00bcbd3b7c3d157c2d732dc98b16b334.svg",
+    "static/media/logos-2.png": "/perfect5/static/media/logos-2.cb1840fad70389c2e642.png",
     "static/media/choice.png": "/perfect5/static/media/choice.35c3a701235339321f52.png",
     "static/media/bw-choppi-logo.webp": "/perfect5/static/media/bw-choppi-logo.d7b923c8894c218c1318.webp",
     "index.html": "/perfect5/index.html",
     "main.2e4bff29.css.map": "/perfect5/static/css/main.2e4bff29.css.map",
-    "main.006382c9.js.map": "/perfect5/static/js/main.006382c9.js.map",
+    "main.0eeeecb3.js.map": "/perfect5/static/js/main.0eeeecb3.js.map",
     "787.cda612ba.chunk.js.map": "/perfect5/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e4bff29.css",
-    "static/js/main.006382c9.js"
+    "static/js/main.0eeeecb3.js"
   ]
 }
